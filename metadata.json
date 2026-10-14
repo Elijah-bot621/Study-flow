@@ -1,0 +1,6 @@
+{
+  "name": "StudyFlow - Smart Student Study Planner",
+  "description": "Automated exam preparation timetable and study planner for JAMB, WAEC, NECO, and university examinations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
