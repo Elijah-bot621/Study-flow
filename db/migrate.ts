@@ -7,6 +7,10 @@ import { getPool, closePool } from '../db.ts';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Constant 64-bit advisory lock key dedicated to StudyFlow schema migrations.
+// Chosen as a distinct signed 64-bit integer.
+const MIGRATION_ADVISORY_LOCK_ID = '847291048192014';
+
 export interface MigrationResult {
   success: boolean;
   applied: string[];
@@ -48,8 +52,10 @@ async function getMigrationFiles(): Promise<string[]> {
 }
 
 /**
- * Executes all pending database schema migrations inside transactions.
- * Safe, idempotent, and transactional per migration.
+ * Executes pending database schema migrations with safe transaction-level locking.
+ * Compatible with Neon's pooled connection strings (PgBouncer in transaction mode).
+ * Uses pg_advisory_xact_lock to ensure exclusive migration execution without leaking
+ * session-level locks across pooled connections.
  */
 export async function runMigrations(): Promise<MigrationResult> {
   const pool = getPool();
@@ -69,8 +75,18 @@ export async function runMigrations(): Promise<MigrationResult> {
   const client: PoolClient = await pool.connect();
 
   try {
-    console.log('[StudyFlow Migration] Checking database schema status...');
+    console.log('[StudyFlow Migration] Beginning migration process with transaction-level locking...');
+    await client.query('BEGIN');
+
+    // 1. Transaction-level advisory lock:
+    // Safe with Neon transaction poolers (PgBouncer). Automatically released upon COMMIT or ROLLBACK.
+    await client.query('SELECT pg_advisory_xact_lock($1);', [MIGRATION_ADVISORY_LOCK_ID]);
+
+    // 2. Ensure schema_migrations exists
     await ensureMigrationsTable(client);
+
+    // 3. Acquire exclusive table lock on schema_migrations for defense-in-depth serialization
+    await client.query('LOCK TABLE schema_migrations IN ACCESS EXCLUSIVE MODE;');
 
     const appliedSet = await getAppliedMigrations(client);
     const migrationFiles = await getMigrationFiles();
@@ -83,26 +99,14 @@ export async function runMigrations(): Promise<MigrationResult> {
         const filePath = path.resolve(__dirname, 'migrations', file);
         const sql = await fs.readFile(filePath, 'utf-8');
 
-        await client.query('BEGIN');
-        try {
-          await client.query(sql);
-          await client.query('INSERT INTO schema_migrations (name) VALUES ($1);', [file]);
-          await client.query('COMMIT');
-          applied.push(file);
-          console.log(`[StudyFlow Migration] Successfully applied: ${file}`);
-        } catch (err: unknown) {
-          await client.query('ROLLBACK');
-          const errMsg = err instanceof Error ? err.message : 'Unknown migration error';
-          console.error(`[StudyFlow Migration] Failed to apply ${file}: ${errMsg}`);
-          return {
-            success: false,
-            applied,
-            alreadyApplied,
-            error: `Failed applying ${file}: ${errMsg}`,
-          };
-        }
+        await client.query(sql);
+        await client.query('INSERT INTO schema_migrations (name) VALUES ($1);', [file]);
+        applied.push(file);
+        console.log(`[StudyFlow Migration] Successfully applied: ${file}`);
       }
     }
+
+    await client.query('COMMIT');
 
     if (applied.length === 0) {
       console.log('[StudyFlow Migration] Database schema is already up to date. No pending migrations.');
@@ -114,6 +118,21 @@ export async function runMigrations(): Promise<MigrationResult> {
       success: true,
       applied,
       alreadyApplied,
+    };
+  } catch (err: unknown) {
+    try {
+      await client.query('ROLLBACK');
+    } catch (rollbackErr: unknown) {
+      console.error('[StudyFlow Migration] Rollback error:', rollbackErr);
+    }
+
+    const errMsg = err instanceof Error ? err.message : 'Unknown migration error';
+    console.error(`[StudyFlow Migration] Migration failed: ${errMsg}`);
+    return {
+      success: false,
+      applied,
+      alreadyApplied,
+      error: errMsg,
     };
   } finally {
     client.release();
