@@ -1,0 +1,286 @@
+{
+  "code": "JAMB",
+  "title": "JAMB UTME",
+  "sourceName": "Study Flow starter list (placeholder, not the official syllabus)",
+  "sourceYear": null,
+  "sourceUrl": null,
+  "isPublished": true,
+  "subjects": [
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "color": "#3B82F6",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "algebraic-processes-and-factorization",
+          "name": "Algebraic Processes & Factorization",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "quadratic-equations-and-polynomials",
+          "name": "Quadratic Equations & Polynomials",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "calculus-differentiation-and-integration",
+          "name": "Calculus: Differentiation & Integration",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "trigonometry-and-circular-functions",
+          "name": "Trigonometry & Circular Functions",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "statistics-and-probability-distributions",
+          "name": "Statistics & Probability Distributions",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "matrices-and-determinants",
+          "name": "Matrices & Determinants",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "coordinate-geometry-and-vectors",
+          "name": "Coordinate Geometry & Vectors",
+          "section": null,
+          "difficulty": "weak"
+        }
+      ]
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "color": "#6366F1",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "kinematics-and-rectilinear-motion",
+          "name": "Kinematics & Rectilinear Motion",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "newtons-laws-work-energy-and-power",
+          "name": "Newton's Laws, Work, Energy & Power",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "heat-energy-temperature-and-gas-laws",
+          "name": "Heat Energy, Temperature & Gas Laws",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "waves-sound-and-optical-reflection",
+          "name": "Waves, Sound & Optical Reflection",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "electric-fields-resistance-and-circuits",
+          "name": "Electric Fields, Resistance & Circuits",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "electromagnetism-and-induction",
+          "name": "Electromagnetism & Induction",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "atomic-physics-and-radioactivity",
+          "name": "Atomic Physics & Radioactivity",
+          "section": null,
+          "difficulty": "strong"
+        }
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "color": "#10B981",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "stoichiometry-and-the-mole-concept",
+          "name": "Stoichiometry & The Mole Concept",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "atomic-structure-and-periodic-trends",
+          "name": "Atomic Structure & Periodic Trends",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "chemical-bonding-and-intermolecular-forces",
+          "name": "Chemical Bonding & Intermolecular Forces",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "acids-bases-salts-and-acid-base-titration",
+          "name": "Acids, Bases, Salts & Acid-Base Titration",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "organic-chemistry-hydrocarbons-and-functional-groups",
+          "name": "Organic Chemistry: Hydrocarbons & Functional Groups",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "chemical-energetics-rates-and-equilibria",
+          "name": "Chemical Energetics, Rates & Equilibria",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "electrochemistry-and-electrolysis",
+          "name": "Electrochemistry & Electrolysis",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "english-language",
+      "name": "English Language",
+      "color": "#F59E0B",
+      "isCompulsory": true,
+      "topics": [
+        {
+          "slug": "comprehension-and-summary-techniques",
+          "name": "Comprehension & Summary Techniques",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "lexis-and-structure-grammar-and-concord",
+          "name": "Lexis & Structure (Grammar & Concord)",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "oral-english-vowel-and-consonant-sounds",
+          "name": "Oral English: Vowel & Consonant Sounds",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "stress-patterns-intonation-and-rhyme",
+          "name": "Stress Patterns, Intonation & Rhyme",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "idioms-antonyms-and-synonyms",
+          "name": "Idioms, Antonyms & Synonyms",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "color": "#059669",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "cell-organization-and-organelles",
+          "name": "Cell Organization & Organelles",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "photosynthesis-and-cellular-respiration",
+          "name": "Photosynthesis & Cellular Respiration",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "circulatory-excretory-and-respiratory-systems",
+          "name": "Circulatory, Excretory & Respiratory Systems",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "genetics-dna-and-hereditary-crosses",
+          "name": "Genetics, DNA & Hereditary Crosses",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "ecology-biomes-and-nutrient-cycles",
+          "name": "Ecology, Biomes & Nutrient Cycles",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "hormones-nervous-system-and-homeostasis",
+          "name": "Hormones, Nervous System & Homeostasis",
+          "section": null,
+          "difficulty": "weak"
+        }
+      ]
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "color": "#8B5CF6",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "theory-of-demand-supply-and-elasticity",
+          "name": "Theory of Demand, Supply & Elasticity",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "production-cost-curves-and-scale-economies",
+          "name": "Production, Cost Curves & Scale Economies",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "market-structures-perfect-and-monopoly",
+          "name": "Market Structures: Perfect & Monopoly",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "national-income-accounting-and-gdp",
+          "name": "National Income Accounting & GDP",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "money-banking-inflation-and-monetary-policy",
+          "name": "Money, Banking, Inflation & Monetary Policy",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "international-trade-and-exchange-rates",
+          "name": "International Trade & Exchange Rates",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "code": "WAEC",
+  "title": "WAEC WASSCE",
+  "sourceName": "Study Flow starter list (placeholder, not the official syllabus)",
+  "sourceYear": null,
+  "sourceUrl": null,
+  "isPublished": true,
+  "subjects": [
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "color": "#3B82F6",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "number-base-systems-and-logarithms",
+          "name": "Number Base Systems & Logarithms",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "simultaneous-and-quadratic-equations",
+          "name": "Simultaneous & Quadratic Equations",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "circle-theorems-and-geometric-proofs",
+          "name": "Circle Theorems & Geometric Proofs",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "trigonometric-ratios-and-bearings",
+          "name": "Trigonometric Ratios & Bearings",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "mensuration-of-2d-and-3d-solids",
+          "name": "Mensuration of 2D & 3D Solids",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "statistics-mean-variance-and-cumulative-frequency",
+          "name": "Statistics, Mean, Variance & Cumulative Frequency",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "english-language",
+      "name": "English Language",
+      "color": "#F59E0B",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "essay-writing-narrative-argumentative-and-formal-letters",
+          "name": "Essay Writing: Narrative, Argumentative & Formal Letters",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "reading-comprehension-and-precis-writing",
+          "name": "Reading Comprehension & Précis Writing",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "sentence-structure-clauses-and-punctuation",
+          "name": "Sentence Structure, Clauses & Punctuation",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "phonetics-and-syllable-stress",
+          "name": "Phonetics & Syllable Stress",
+          "section": null,
+          "difficulty": "weak"
+        }
+      ]
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "color": "#6366F1",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "measurement-units-and-dimensional-analysis",
+          "name": "Measurement, Units & Dimensional Analysis",
+          "section": null,
+          "difficulty": "strong"
+        },
+        {
+          "slug": "kinematics-velocity-time-graphs-and-acceleration",
+          "name": "Kinematics: Velocity-Time Graphs & Acceleration",
+          "section": null,
+          "difficulty": "weak"
+        },
+        {
+          "slug": "thermal-properties-and-specific-heat-capacity",
+          "name": "Thermal Properties & Specific Heat Capacity",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "geometric-optics-lenses-and-mirrors",
+          "name": "Geometric Optics, Lenses & Mirrors",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "dc-circuits-and-ohms-law-experiments",
+          "name": "DC Circuits & Ohm's Law Experiments",
+          "section": null,
+          "difficulty": "weak"
+        }
+      ]
+    }
+  ]
+}
