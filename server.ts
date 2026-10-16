@@ -3,6 +3,7 @@ import type { Request, Response, NextFunction } from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { checkDatabaseConnection } from './db.ts';
+import { ownersRouter } from './ownersRoutes.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -11,6 +12,18 @@ const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 const HOST = '0.0.0.0';
 const isProduction = process.env.NODE_ENV === 'production';
+
+// Trust first proxy hop (e.g. reverse proxy / load balancer)
+app.set('trust proxy', 1);
+
+// Disable Express fingerprint header
+app.disable('x-powered-by');
+
+// Cache-Control: no-store for all /api routes
+app.use('/api', (_req: Request, res: Response, next: NextFunction) => {
+  res.setHeader('Cache-Control', 'no-store');
+  next();
+});
 
 // Body parsing with sensible limits
 app.use(express.json({ limit: '1mb' }));
@@ -36,6 +49,9 @@ app.get('/api/health', async (_req: Request, res: Response) => {
     });
   }
 });
+
+// Owner registration and management endpoints
+app.use('/api/owners', ownersRouter);
 
 // 404 handler for unknown /api/* routes (returns JSON, never HTML)
 app.all('/api/*', (req: Request, res: Response) => {
