@@ -30,6 +30,7 @@ import {
   validateExamTitle,
   validateStudyPeriods,
 } from '../services/validation';
+import { toLocalDateString, getTodayLocalDateString } from '../services/dateUtils';
 
 interface CreateStudyPlanProps {
   onPlanCreated: (newExam: Exam) => void;
@@ -50,7 +51,7 @@ export const CreateStudyPlan: React.FC<CreateStudyPlanProps> = ({
   const defaultExamDate = () => {
     const d = new Date();
     d.setDate(d.getDate() + 45);
-    return d.toISOString().split('T')[0];
+    return toLocalDateString(d);
   };
   const [examDate, setExamDate] = useState<string>(defaultExamDate());
   const [dailyHours, setDailyHours] = useState<number>(3.5);
@@ -406,7 +407,7 @@ export const CreateStudyPlan: React.FC<CreateStudyPlanProps> = ({
         dailyStudyHours: dailyHours,
         preferredPeriods: preferredPeriods,
         subjects: finalizedSubjects,
-        createdAt: new Date().toISOString().split('T')[0],
+        createdAt: getTodayLocalDateString(),
         isActive: true,
       };
 
@@ -529,7 +530,7 @@ export const CreateStudyPlan: React.FC<CreateStudyPlanProps> = ({
                 <input
                   type="date"
                   value={examDate}
-                  min={new Date().toISOString().split('T')[0]}
+                  min={getTodayLocalDateString()}
                   onChange={(e) => {
                     setExamDate(e.target.value);
                     if (stepErrors.examDate) setStepErrors((prev) => ({ ...prev, examDate: '' }));

@@ -23,6 +23,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 import { validateRescheduleSlot } from '../services/validation';
+import { getTodayLocalDateString, toLocalDateString, parseLocalDate, addDaysToLocalDateString } from '../services/dateUtils';
 
 interface StudyTimetableProps {
   sessions: StudySession[];
@@ -42,7 +43,7 @@ export const StudyTimetable: React.FC<StudyTimetableProps> = ({
   onAutoRedistribute,
 }) => {
   const [viewMode, setViewMode] = useState<'daily' | 'weekly' | 'calendar'>('daily');
-  const todayIso = new Date().toISOString().split('T')[0];
+  const todayIso = getTodayLocalDateString();
   const [selectedDate, setSelectedDate] = useState<string>(todayIso);
   const [subjectFilter, setSubjectFilter] = useState<string>('all');
   const [typeFilter, setTypeFilter] = useState<string>('all');
@@ -55,9 +56,7 @@ export const StudyTimetable: React.FC<StudyTimetableProps> = ({
 
   // Date navigation helpers
   const shiftDay = (days: number) => {
-    const d = new Date(selectedDate + 'T00:00:00');
-    d.setDate(d.getDate() + days);
-    setSelectedDate(d.toISOString().split('T')[0]);
+    setSelectedDate(addDaysToLocalDateString(selectedDate, days));
   };
 
   // Filtered sessions
@@ -77,14 +76,14 @@ export const StudyTimetable: React.FC<StudyTimetableProps> = ({
 
   // Weekly View Calculations (7 days from selectedDate or start of week)
   const getWeekDates = (baseDateStr: string) => {
-    const curr = new Date(baseDateStr + 'T00:00:00');
+    const curr = parseLocalDate(baseDateStr);
     const firstDayOfWeek = new Date(curr);
     firstDayOfWeek.setDate(curr.getDate() - curr.getDay() + 1); // Monday start
     const week: string[] = [];
     for (let i = 0; i < 7; i++) {
       const d = new Date(firstDayOfWeek);
       d.setDate(firstDayOfWeek.getDate() + i);
-      week.push(d.toISOString().split('T')[0]);
+      week.push(toLocalDateString(d));
     }
     return week;
   };
@@ -93,7 +92,7 @@ export const StudyTimetable: React.FC<StudyTimetableProps> = ({
 
   // Calendar View Month Calculations
   const getCalendarDays = (dateStr: string) => {
-    const d = new Date(dateStr + 'T00:00:00');
+    const d = parseLocalDate(dateStr);
     const year = d.getFullYear();
     const month = d.getMonth();
     const firstDay = new Date(year, month, 1).getDay();

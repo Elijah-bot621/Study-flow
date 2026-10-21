@@ -11,6 +11,7 @@
     "clean": "rm -rf dist server.js",
     "migrate": "tsx db/migrate.ts",
     "syllabus:import": "tsx db/importSyllabus.ts",
+    "test:dates": "TZ=Africa/Lagos node --test tests/dateUtils.test.ts && TZ=UTC node --test tests/dateUtils.test.ts && TZ=America/Los_Angeles node --test tests/dateUtils.test.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

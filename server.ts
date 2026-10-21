@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { checkDatabaseConnection } from './db.ts';
 import { ownersRouter } from './ownersRoutes.ts';
+import { syllabusRouter } from './syllabusRoutes.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -52,6 +53,9 @@ app.get('/api/health', async (_req: Request, res: Response) => {
 
 // Owner registration and management endpoints
 app.use('/api/owners', ownersRouter);
+
+// Public syllabus endpoints
+app.use('/api/syllabus', syllabusRouter);
 
 // 404 handler for unknown /api/* routes (returns JSON, never HTML)
 app.all('/api/*', (req: Request, res: Response) => {

@@ -8,6 +8,12 @@ import {
   SessionType, 
   PracticeScore 
 } from '../types';
+import { 
+  toLocalDateString, 
+  getTodayLocalDateString, 
+  parseLocalDate, 
+  addDaysToLocalDateString 
+} from './dateUtils';
 
 interface GenerationParams {
   exam: Exam;
@@ -41,18 +47,16 @@ const PERIOD_TIME_SLOTS: Record<StudyPeriod, { start: string; end: string }[]> =
 };
 
 function formatIsoDate(d: Date): string {
-  return d.toISOString().split('T')[0];
+  return toLocalDateString(d);
 }
 
 function addDays(dateStr: string, days: number): string {
-  const d = new Date(dateStr + 'T00:00:00');
-  d.setDate(d.getDate() + days);
-  return formatIsoDate(d);
+  return addDaysToLocalDateString(dateStr, days);
 }
 
 function getDaysBetween(date1: string, date2: string): number {
-  const d1 = new Date(date1 + 'T00:00:00').getTime();
-  const d2 = new Date(date2 + 'T00:00:00').getTime();
+  const d1 = parseLocalDate(date1).getTime();
+  const d2 = parseLocalDate(date2).getTime();
   const diff = Math.ceil((d2 - d1) / (1000 * 60 * 60 * 24));
   return Math.max(diff, 1);
 }
@@ -63,7 +67,7 @@ function getDaysBetween(date1: string, date2: string): number {
  * spaced repetition intervals, and user study slots.
  */
 export function generateStudyTimetable(params: GenerationParams): StudySession[] {
-  const { exam, startDate = formatIsoDate(new Date()) } = params;
+  const { exam, startDate = getTodayLocalDateString() } = params;
   const sessions: StudySession[] = [];
 
   const daysToExam = getDaysBetween(startDate, exam.examDate);
@@ -287,7 +291,7 @@ export function generateStudyTimetable(params: GenerationParams): StudySession[]
 export function redistributeMissedSessions(
   currentSessions: StudySession[],
   exam: Exam,
-  todayStr: string = formatIsoDate(new Date())
+  todayStr: string = getTodayLocalDateString()
 ): { updatedSessions: StudySession[]; countRedistributed: number } {
   // Find sessions that were missed (scheduled before today) or marked as skipped
   const missedSessions = currentSessions.filter(
@@ -390,7 +394,7 @@ export function applyPracticeScoreImpact(
   currentSessions: StudySession[],
   score: PracticeScore,
   exam: Exam,
-  todayStr: string = formatIsoDate(new Date())
+  todayStr: string = getTodayLocalDateString()
 ): { updatedSessions: StudySession[]; impactMessage: string } {
   let impactMessage = '';
   const updatedSessions = [...currentSessions];

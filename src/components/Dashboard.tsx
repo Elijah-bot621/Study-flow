@@ -20,6 +20,7 @@ import {
   ListOrdered,
   Sparkles
 } from 'lucide-react';
+import { getTodayLocalDateString, parseLocalDate } from '../services/dateUtils';
 
 interface DashboardProps {
   exam: Exam | null;
@@ -40,7 +41,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   onToggleSessionStatus,
   onAutoRedistribute,
 }) => {
-  const todayStr = new Date().toISOString().split('T')[0];
+  const todayStr = getTodayLocalDateString();
 
   // Filter today's tasks
   const todayTasks = sessions.filter((s) => s.date === todayStr);
@@ -77,8 +78,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // Days remaining calculation
   let daysRemaining = 0;
   if (exam) {
-    const d1 = new Date(todayStr + 'T00:00:00').getTime();
-    const d2 = new Date(exam.examDate + 'T00:00:00').getTime();
+    const d1 = parseLocalDate(todayStr).getTime();
+    const d2 = parseLocalDate(exam.examDate).getTime();
     daysRemaining = Math.max(0, Math.ceil((d2 - d1) / (1000 * 60 * 60 * 24)));
   }
 

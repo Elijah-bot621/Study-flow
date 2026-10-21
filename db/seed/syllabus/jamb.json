@@ -1,195 +1,403 @@
 {
   "code": "JAMB",
   "title": "JAMB UTME",
-  "sourceName": "Study Flow starter list (placeholder, not the official syllabus)",
-  "sourceYear": null,
+  "sourceName": "JAMB UTME syllabus, 2025 edition (for UTME 2026 to 2030)",
+  "sourceYear": 2025,
   "sourceUrl": null,
   "isPublished": true,
   "subjects": [
     {
-      "slug": "mathematics",
-      "name": "Mathematics",
-      "color": "#3B82F6",
-      "isCompulsory": false,
-      "topics": [
-        {
-          "slug": "algebraic-processes-and-factorization",
-          "name": "Algebraic Processes & Factorization",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "quadratic-equations-and-polynomials",
-          "name": "Quadratic Equations & Polynomials",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "calculus-differentiation-and-integration",
-          "name": "Calculus: Differentiation & Integration",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "trigonometry-and-circular-functions",
-          "name": "Trigonometry & Circular Functions",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "statistics-and-probability-distributions",
-          "name": "Statistics & Probability Distributions",
-          "section": null,
-          "difficulty": "strong"
-        },
-        {
-          "slug": "matrices-and-determinants",
-          "name": "Matrices & Determinants",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "coordinate-geometry-and-vectors",
-          "name": "Coordinate Geometry & Vectors",
-          "section": null,
-          "difficulty": "weak"
-        }
-      ]
-    },
-    {
-      "slug": "physics",
-      "name": "Physics",
-      "color": "#6366F1",
-      "isCompulsory": false,
-      "topics": [
-        {
-          "slug": "kinematics-and-rectilinear-motion",
-          "name": "Kinematics & Rectilinear Motion",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "newtons-laws-work-energy-and-power",
-          "name": "Newton's Laws, Work, Energy & Power",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "heat-energy-temperature-and-gas-laws",
-          "name": "Heat Energy, Temperature & Gas Laws",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "waves-sound-and-optical-reflection",
-          "name": "Waves, Sound & Optical Reflection",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "electric-fields-resistance-and-circuits",
-          "name": "Electric Fields, Resistance & Circuits",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "electromagnetism-and-induction",
-          "name": "Electromagnetism & Induction",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "atomic-physics-and-radioactivity",
-          "name": "Atomic Physics & Radioactivity",
-          "section": null,
-          "difficulty": "strong"
-        }
-      ]
-    },
-    {
-      "slug": "chemistry",
-      "name": "Chemistry",
-      "color": "#10B981",
-      "isCompulsory": false,
-      "topics": [
-        {
-          "slug": "stoichiometry-and-the-mole-concept",
-          "name": "Stoichiometry & The Mole Concept",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "atomic-structure-and-periodic-trends",
-          "name": "Atomic Structure & Periodic Trends",
-          "section": null,
-          "difficulty": "strong"
-        },
-        {
-          "slug": "chemical-bonding-and-intermolecular-forces",
-          "name": "Chemical Bonding & Intermolecular Forces",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "acids-bases-salts-and-acid-base-titration",
-          "name": "Acids, Bases, Salts & Acid-Base Titration",
-          "section": null,
-          "difficulty": "average"
-        },
-        {
-          "slug": "organic-chemistry-hydrocarbons-and-functional-groups",
-          "name": "Organic Chemistry: Hydrocarbons & Functional Groups",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "chemical-energetics-rates-and-equilibria",
-          "name": "Chemical Energetics, Rates & Equilibria",
-          "section": null,
-          "difficulty": "weak"
-        },
-        {
-          "slug": "electrochemistry-and-electrolysis",
-          "name": "Electrochemistry & Electrolysis",
-          "section": null,
-          "difficulty": "average"
-        }
-      ]
-    },
-    {
-      "slug": "english-language",
-      "name": "English Language",
+      "slug": "use-of-english",
+      "name": "Use of English",
       "color": "#F59E0B",
       "isCompulsory": true,
       "topics": [
         {
-          "slug": "comprehension-and-summary-techniques",
-          "name": "Comprehension & Summary Techniques",
-          "section": null,
-          "difficulty": "strong"
-        },
-        {
-          "slug": "lexis-and-structure-grammar-and-concord",
-          "name": "Lexis & Structure (Grammar & Concord)",
-          "section": null,
+          "slug": "passage-types-description-narration-exposition-argumentation-persuasion",
+          "name": "Passage types: description, narration, exposition, argumentation/persuasion",
+          "section": "A: Comprehension and Summary",
           "difficulty": "average"
         },
         {
-          "slug": "oral-english-vowel-and-consonant-sounds",
-          "name": "Oral English: Vowel & Consonant Sounds",
-          "section": null,
-          "difficulty": "weak"
+          "slug": "comprehension-of-the-whole-or-part-of-a-passage",
+          "name": "Comprehension of the whole or part of a passage",
+          "section": "A: Comprehension and Summary",
+          "difficulty": "average"
         },
         {
-          "slug": "stress-patterns-intonation-and-rhyme",
-          "name": "Stress Patterns, Intonation & Rhyme",
-          "section": null,
-          "difficulty": "weak"
+          "slug": "words-phrases-clauses-sentences-figures-of-speech-and-idioms-in-passages",
+          "name": "Words, phrases, clauses, sentences, figures of speech and idioms in passages",
+          "section": "A: Comprehension and Summary",
+          "difficulty": "average"
         },
         {
-          "slug": "idioms-antonyms-and-synonyms",
-          "name": "Idioms, Antonyms & Synonyms",
-          "section": null,
+          "slug": "coherence-and-logical-reasoning-deductions-and-inferences",
+          "name": "Coherence and logical reasoning (deductions and inferences)",
+          "section": "A: Comprehension and Summary",
+          "difficulty": "average"
+        },
+        {
+          "slug": "approved-reading-text",
+          "name": "Approved reading text",
+          "section": "A: Comprehension and Summary",
+          "difficulty": "average"
+        },
+        {
+          "slug": "synthesis-of-ideas-summary",
+          "name": "Synthesis of ideas (summary)",
+          "section": "A: Comprehension and Summary",
+          "difficulty": "average"
+        },
+        {
+          "slug": "cloze-passage",
+          "name": "Cloze passage",
+          "section": "A: Comprehension and Summary",
+          "difficulty": "average"
+        },
+        {
+          "slug": "synonyms",
+          "name": "Synonyms",
+          "section": "B: Lexis and Structure",
+          "difficulty": "average"
+        },
+        {
+          "slug": "antonyms",
+          "name": "Antonyms",
+          "section": "B: Lexis and Structure",
+          "difficulty": "average"
+        },
+        {
+          "slug": "clause-and-sentence-patterns",
+          "name": "Clause and sentence patterns",
+          "section": "B: Lexis and Structure",
+          "difficulty": "average"
+        },
+        {
+          "slug": "word-classes-and-their-functions",
+          "name": "Word classes and their functions",
+          "section": "B: Lexis and Structure",
+          "difficulty": "average"
+        },
+        {
+          "slug": "mood-tense-aspect-number-agreement-concord-degree-and-question-tags",
+          "name": "Mood, tense, aspect, number, agreement/concord, degree and question tags",
+          "section": "B: Lexis and Structure",
+          "difficulty": "average"
+        },
+        {
+          "slug": "mechanics",
+          "name": "Mechanics",
+          "section": "B: Lexis and Structure",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ordinary-figurative-and-idiomatic-usage",
+          "name": "Ordinary, figurative and idiomatic usage",
+          "section": "B: Lexis and Structure",
+          "difficulty": "average"
+        },
+        {
+          "slug": "vowels-monophthongs-diphthongs-and-triphthongs",
+          "name": "Vowels (monophthongs, diphthongs and triphthongs)",
+          "section": "C: Oral Forms",
+          "difficulty": "average"
+        },
+        {
+          "slug": "consonants-including-clusters",
+          "name": "Consonants (including clusters)",
+          "section": "C: Oral Forms",
+          "difficulty": "average"
+        },
+        {
+          "slug": "rhymes-including-homophones",
+          "name": "Rhymes (including homophones)",
+          "section": "C: Oral Forms",
+          "difficulty": "average"
+        },
+        {
+          "slug": "word-stress",
+          "name": "Word stress",
+          "section": "C: Oral Forms",
+          "difficulty": "average"
+        },
+        {
+          "slug": "emphatic-stress",
+          "name": "Emphatic stress",
+          "section": "C: Oral Forms",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "arabic",
+      "name": "Arabic",
+      "color": "#0D9488",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "comprehension",
+          "name": "Comprehension",
+          "section": "A: Comprehension",
+          "difficulty": "average"
+        },
+        {
+          "slug": "translation",
+          "name": "Translation",
+          "section": "B: Translation",
+          "difficulty": "average"
+        },
+        {
+          "slug": "demonstrative-relative-pronouns-conditional-and-interrogative",
+          "name": "Demonstrative, relative pronouns, conditional and interrogative",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "gender-masculine-and-feminine",
+          "name": "Gender (masculine and feminine)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "characteristics-of-the-noun",
+          "name": "Characteristics of the noun",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "dual",
+          "name": "Dual",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "plurals-sound-masculine-sound-feminine-broken",
+          "name": "Plurals (sound masculine, sound feminine, broken)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "construct-phrase",
+          "name": "Construct phrase",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "separable-and-inseparable-pronouns",
+          "name": "Separable and inseparable pronouns",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "appendants-adjective-conjunction-permutative-emphasis",
+          "name": "Appendants (adjective, conjunction, permutative, emphasis)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "prepositions",
+          "name": "Prepositions",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "transitive-and-intransitive-verbs",
+          "name": "Transitive and intransitive verbs",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-perfect-verb",
+          "name": "The perfect verb",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-imperfect-verb-indicative-subjunctive-jussive",
+          "name": "The imperfect verb (indicative, subjunctive, jussive)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-imperative-verb",
+          "name": "The imperative verb",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-modifiers-kana-inna-zanna-and-their-associates",
+          "name": "The modifiers (Kana, Inna, Zanna and their associates)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "trilateral-and-derived-verb",
+          "name": "Trilateral and derived verb",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "verbal-noun",
+          "name": "Verbal noun",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "derivatives-active-and-passive-participles-comparative-superlative-nouns-of-instrument-time-and-place-relative",
+          "name": "Derivatives (active and passive participles, comparative/superlative, nouns of instrument, time and place, relative adjective, hyperbole noun)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "conditional-sentence",
+          "name": "Conditional sentence",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "numerals-1-to-1000",
+          "name": "Numerals (1 to 1000)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "active-and-passive-voice",
+          "name": "Active and passive voice",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "subject-and-predicate",
+          "name": "Subject and predicate",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nouns-in-the-accusative-direct-object-adverbs-of-place-and-time-adverb-of-circumstance-the-exempted-with-illa",
+          "name": "Nouns in the accusative (direct object, adverbs of place and time, adverb of circumstance, the exempted with illa, specification, vocative)",
+          "section": "C: Grammar",
+          "difficulty": "average"
+        },
+        {
+          "slug": "composition",
+          "name": "Composition",
+          "section": "D: Composition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "introduction-to-arabic-literature",
+          "name": "Introduction to Arabic literature",
+          "section": "E: Arabic Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-pre-islamic-period-500-to-610-c-e",
+          "name": "The Pre-Islamic period (500 to 610 C.E.)",
+          "section": "E: Arabic Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-islamic-periods-610-to-1798-c-e",
+          "name": "The Islamic periods (610 to 1798 C.E.)",
+          "section": "E: Arabic Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-modern-period-1798-to-date",
+          "name": "The Modern period (1798 to date)",
+          "section": "E: Arabic Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "arabic-literature-in-west-africa",
+          "name": "Arabic literature in West Africa",
+          "section": "E: Arabic Literature",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "art",
+      "name": "Art",
+      "color": "#DB2777",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "classification-of-art",
+          "name": "Classification of art",
+          "section": "Section A",
+          "difficulty": "average"
+        },
+        {
+          "slug": "elements-and-principles-of-design",
+          "name": "Elements and principles of design",
+          "section": "Section A",
+          "difficulty": "average"
+        },
+        {
+          "slug": "art-terms",
+          "name": "Art terms",
+          "section": "Section A",
+          "difficulty": "average"
+        },
+        {
+          "slug": "historical-dimensions-of-art",
+          "name": "Historical dimensions of art",
+          "section": "Section B",
+          "difficulty": "average"
+        },
+        {
+          "slug": "traditional-african-art",
+          "name": "Traditional African art",
+          "section": "Section B",
+          "difficulty": "average"
+        },
+        {
+          "slug": "traditional-nigerian-art",
+          "name": "Traditional Nigerian art",
+          "section": "Section B",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nigerian-crafts",
+          "name": "Nigerian crafts",
+          "section": "Section B",
+          "difficulty": "average"
+        },
+        {
+          "slug": "development-in-contemporary-nigerian-arts-and-artists",
+          "name": "Development in contemporary Nigerian arts and artists",
+          "section": "Section B",
+          "difficulty": "average"
+        },
+        {
+          "slug": "artistic-skills-techniques-and-processes",
+          "name": "Artistic skills, techniques and processes",
+          "section": "Section C",
+          "difficulty": "average"
+        },
+        {
+          "slug": "tools-materials-and-equipment",
+          "name": "Tools, materials and equipment",
+          "section": "Section C",
+          "difficulty": "average"
+        },
+        {
+          "slug": "art-appreciation",
+          "name": "Art appreciation",
+          "section": "Section D",
+          "difficulty": "average"
+        },
+        {
+          "slug": "meaning-and-functions-of-art-in-society",
+          "name": "Meaning and functions of art in society",
+          "section": "Section D",
+          "difficulty": "average"
+        },
+        {
+          "slug": "art-entrepreneurship",
+          "name": "Art entrepreneurship",
+          "section": "Section D",
           "difficulty": "average"
         }
       ]
@@ -201,40 +409,900 @@
       "isCompulsory": false,
       "topics": [
         {
-          "slug": "cell-organization-and-organelles",
-          "name": "Cell Organization & Organelles",
-          "section": null,
-          "difficulty": "strong"
+          "slug": "living-organisms",
+          "name": "Living organisms",
+          "section": "A: Variety of Organisms",
+          "difficulty": "average"
         },
         {
-          "slug": "photosynthesis-and-cellular-respiration",
-          "name": "Photosynthesis & Cellular Respiration",
+          "slug": "evolution-among-the-following-monera-protista-fungi-plantae-animalia",
+          "name": "Evolution among the following (Monera, Protista, Fungi, Plantae, Animalia)",
+          "section": "A: Variety of Organisms",
+          "difficulty": "average"
+        },
+        {
+          "slug": "structural-functional-and-behavioural-adaptations-of-organisms",
+          "name": "Structural/functional and behavioural adaptations of organisms",
+          "section": "A: Variety of Organisms",
+          "difficulty": "average"
+        },
+        {
+          "slug": "internal-structure-of-plants-and-animals",
+          "name": "Internal structure of plants and animals",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nutrition",
+          "name": "Nutrition",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "transport",
+          "name": "Transport",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "respiration",
+          "name": "Respiration",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "excretion",
+          "name": "Excretion",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "support-and-movement",
+          "name": "Support and movement",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "reproduction",
+          "name": "Reproduction",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "growth",
+          "name": "Growth",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "co-ordination-and-control",
+          "name": "Co-ordination and control",
+          "section": "B: Form and Functions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "factors-affecting-the-distribution-of-organisms",
+          "name": "Factors affecting the distribution of organisms",
+          "section": "C: Ecology",
+          "difficulty": "average"
+        },
+        {
+          "slug": "symbiotic-interactions-of-plants-and-animals",
+          "name": "Symbiotic interactions of plants and animals",
+          "section": "C: Ecology",
+          "difficulty": "average"
+        },
+        {
+          "slug": "natural-habitats",
+          "name": "Natural habitats",
+          "section": "C: Ecology",
+          "difficulty": "average"
+        },
+        {
+          "slug": "local-nigerian-biomes",
+          "name": "Local (Nigerian) biomes",
+          "section": "C: Ecology",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-ecology-of-populations",
+          "name": "The ecology of populations",
+          "section": "C: Ecology",
+          "difficulty": "average"
+        },
+        {
+          "slug": "soil",
+          "name": "Soil",
+          "section": "C: Ecology",
+          "difficulty": "average"
+        },
+        {
+          "slug": "humans-and-environment",
+          "name": "Humans and environment",
+          "section": "C: Ecology",
+          "difficulty": "average"
+        },
+        {
+          "slug": "variation-in-population",
+          "name": "Variation in population",
+          "section": "D: Heredity and Variations",
+          "difficulty": "average"
+        },
+        {
+          "slug": "heredity",
+          "name": "Heredity",
+          "section": "D: Heredity and Variations",
+          "difficulty": "average"
+        },
+        {
+          "slug": "theories-of-evolution",
+          "name": "Theories of evolution",
+          "section": "E: Evolution",
+          "difficulty": "average"
+        },
+        {
+          "slug": "evidence-of-evolution",
+          "name": "Evidence of evolution",
+          "section": "E: Evolution",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "color": "#10B981",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "separation-of-mixtures-and-purification-of-chemical-substances",
+          "name": "Separation of mixtures and purification of chemical substances",
           "section": null,
           "difficulty": "average"
         },
         {
-          "slug": "circulatory-excretory-and-respiratory-systems",
-          "name": "Circulatory, Excretory & Respiratory Systems",
+          "slug": "chemical-combination",
+          "name": "Chemical combination",
           "section": null,
           "difficulty": "average"
         },
         {
-          "slug": "genetics-dna-and-hereditary-crosses",
-          "name": "Genetics, DNA & Hereditary Crosses",
+          "slug": "kinetic-theory-of-matter-and-gas-laws",
+          "name": "Kinetic theory of matter and gas laws",
           "section": null,
-          "difficulty": "weak"
+          "difficulty": "average"
         },
         {
-          "slug": "ecology-biomes-and-nutrient-cycles",
-          "name": "Ecology, Biomes & Nutrient Cycles",
+          "slug": "atomic-structure-and-bonding",
+          "name": "Atomic structure and bonding",
           "section": null,
-          "difficulty": "strong"
+          "difficulty": "average"
         },
         {
-          "slug": "hormones-nervous-system-and-homeostasis",
-          "name": "Hormones, Nervous System & Homeostasis",
+          "slug": "nuclear-chemistry",
+          "name": "Nuclear chemistry",
           "section": null,
-          "difficulty": "weak"
+          "difficulty": "average"
+        },
+        {
+          "slug": "solubility",
+          "name": "Solubility",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "environmental-pollution",
+          "name": "Environmental pollution",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "acids-bases-and-salts",
+          "name": "Acids, bases and salts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "oxidation-and-reduction-redox",
+          "name": "Oxidation and reduction (redox)",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "electrolysis",
+          "name": "Electrolysis",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "energy-changes",
+          "name": "Energy changes",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "rates-of-chemical-reaction",
+          "name": "Rates of chemical reaction",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "chemical-equilibria",
+          "name": "Chemical equilibria",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "non-metals-and-their-compounds",
+          "name": "Non-metals and their compounds",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "metals-and-their-compounds",
+          "name": "Metals and their compounds",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "organic-compounds",
+          "name": "Organic compounds",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "chemistry-and-industry",
+          "name": "Chemistry and industry",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "christian-religious-studies",
+      "name": "Christian Religious Studies",
+      "color": "#7C3AED",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "the-sovereignty-of-god",
+          "name": "The sovereignty of God",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-covenant",
+          "name": "The covenant",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "leadership-qualities",
+          "name": "Leadership qualities",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "divine-providence-guidance-and-protection",
+          "name": "Divine providence, guidance and protection",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "parental-responsibility",
+          "name": "Parental responsibility",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "obedience-and-disobedience",
+          "name": "Obedience and disobedience",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "a-man-after-gods-own-heart",
+          "name": "A man after God's own heart",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "decision-making",
+          "name": "Decision-making",
+          "section": "Section A: Themes from Creation to the Division of the Kingdom",
+          "difficulty": "average"
+        },
+        {
+          "slug": "greed-and-its-effects",
+          "name": "Greed and its effects",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-supremacy-of-god",
+          "name": "The supremacy of God",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "religious-reforms-in-judah",
+          "name": "Religious reforms in Judah",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "concern-for-judah",
+          "name": "Concern for Judah",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "faith-courage-and-protection",
+          "name": "Faith, courage and protection",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "gods-message-to-nineveh",
+          "name": "God's message to Nineveh",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "social-justice-true-religion-and-divine-love",
+          "name": "Social justice, true religion and divine love",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "holiness-and-divine-call",
+          "name": "Holiness and divine call",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "punishment-and-hope",
+          "name": "Punishment and hope",
+          "section": "Section B: Themes from the Division of the Kingdom to the Return from Exile and the Prophets",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-birth-and-early-life-of-jesus",
+          "name": "The birth and early life of Jesus",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-baptism-and-temptation-of-jesus",
+          "name": "The baptism and temptation of Jesus",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "discipleship",
+          "name": "Discipleship",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "miracles",
+          "name": "Miracles",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-parables",
+          "name": "The parables",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sermon-on-the-mount",
+          "name": "Sermon on the Mount",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "mission-of-the-disciples",
+          "name": "Mission of the disciples",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-great-confession",
+          "name": "The Great Confession",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-transfiguration",
+          "name": "The Transfiguration",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-triumphal-entry-and-the-cleansing-of-the-temple",
+          "name": "The Triumphal Entry and the cleansing of the Temple",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-last-supper",
+          "name": "The Last Supper",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-trials-and-the-death-of-jesus",
+          "name": "The trials and the death of Jesus",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "resurrection-appearances-and-ascension-of-jesus",
+          "name": "Resurrection, appearances and ascension of Jesus",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "jesus-teachings-about-himself",
+          "name": "Jesus' teachings about Himself",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "love",
+          "name": "Love",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "fellowship-in-the-early-church",
+          "name": "Fellowship in the Early Church",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-holy-spirit-and-the-mission-of-the-church",
+          "name": "The Holy Spirit and the mission of the Church",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "opposition-to-the-gospel-message",
+          "name": "Opposition to the Gospel message",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "mission-to-the-gentiles",
+          "name": "Mission to the Gentiles",
+          "section": "Section C: Themes from the four Gospels and the Acts of the Apostles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "justification-by-faith",
+          "name": "Justification by faith",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-law-and-grace",
+          "name": "The law and grace",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "new-life-in-christ",
+          "name": "New life in Christ",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "christians-as-joint-heirs-with-christ",
+          "name": "Christians as joint heirs with Christ",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "humility",
+          "name": "Humility",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "forgiveness",
+          "name": "Forgiveness",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "spiritual-gifts",
+          "name": "Spiritual gifts",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "christian-giving",
+          "name": "Christian giving",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "civic-responsibility",
+          "name": "Civic responsibility",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "dignity-of-labour",
+          "name": "Dignity of labour",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-second-coming-of-christ",
+          "name": "The second coming of Christ",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "impartiality",
+          "name": "Impartiality",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "effective-prayer",
+          "name": "Effective prayer",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "christian-living-in-the-community",
+          "name": "Christian living in the community",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "corruption",
+          "name": "Corruption",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sexual-immorality",
+          "name": "Sexual immorality",
+          "section": "Section D: Themes from Selected Epistles",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "commerce",
+      "name": "Commerce",
+      "color": "#D97706",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "commerce",
+          "name": "Commerce",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "occupation",
+          "name": "Occupation",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "production",
+          "name": "Production",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "trade",
+          "name": "Trade",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "purchase-and-sale-of-goods",
+          "name": "Purchase and sale of goods",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "aids-to-trade",
+          "name": "Aids-to-trade",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "business-units",
+          "name": "Business units",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "financing-business",
+          "name": "Financing business",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "trade-associations",
+          "name": "Trade associations",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "money",
+          "name": "Money",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "stock-exchange",
+          "name": "Stock exchange",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "elements-of-business-management",
+          "name": "Elements of business management",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "elements-of-marketing",
+          "name": "Elements of marketing",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "legal-aspects-of-business",
+          "name": "Legal aspects of business",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "commodity-exchange",
+          "name": "Commodity exchange",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "business-environment-and-social-responsibility",
+          "name": "Business environment and social responsibility",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "computer-studies",
+      "name": "Computer Studies",
+      "color": "#0EA5E9",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "history-of-computing",
+          "name": "History of computing",
+          "section": "Section A: Evolution of Computing",
+          "difficulty": "average"
+        },
+        {
+          "slug": "classification-of-computing-devices",
+          "name": "Classification of computing devices",
+          "section": "Section A: Evolution of Computing",
+          "difficulty": "average"
+        },
+        {
+          "slug": "overview-of-computing-systems",
+          "name": "Overview of computing systems",
+          "section": "Section B: Fundamentals of Computing",
+          "difficulty": "average"
+        },
+        {
+          "slug": "data-and-information",
+          "name": "Data and information",
+          "section": "Section B: Fundamentals of Computing",
+          "difficulty": "average"
+        },
+        {
+          "slug": "word-processing-package",
+          "name": "Word processing package",
+          "section": "Section C: Computer Application Packages",
+          "difficulty": "average"
+        },
+        {
+          "slug": "spreadsheet-package",
+          "name": "Spreadsheet package",
+          "section": "Section C: Computer Application Packages",
+          "difficulty": "average"
+        },
+        {
+          "slug": "database-package",
+          "name": "Database package",
+          "section": "Section C: Computer Application Packages",
+          "difficulty": "average"
+        },
+        {
+          "slug": "graphics-package",
+          "name": "Graphics package",
+          "section": "Section C: Computer Application Packages",
+          "difficulty": "average"
+        },
+        {
+          "slug": "presentation-package",
+          "name": "Presentation package",
+          "section": "Section C: Computer Application Packages",
+          "difficulty": "average"
+        },
+        {
+          "slug": "web-design-package",
+          "name": "Web design package",
+          "section": "Section C: Computer Application Packages",
+          "difficulty": "average"
+        },
+        {
+          "slug": "concept-of-computer-files",
+          "name": "Concept of computer files",
+          "section": "Section D: Managing Computer Files",
+          "difficulty": "average"
+        },
+        {
+          "slug": "handling-computer-files",
+          "name": "Handling computer files",
+          "section": "Section D: Managing Computer Files",
+          "difficulty": "average"
+        },
+        {
+          "slug": "booting-and-shutting-down-process",
+          "name": "Booting and shutting down process",
+          "section": "Section E: Computer Maintenance and Safety Measures",
+          "difficulty": "average"
+        },
+        {
+          "slug": "computer-maintenance",
+          "name": "Computer maintenance",
+          "section": "Section E: Computer Maintenance and Safety Measures",
+          "difficulty": "average"
+        },
+        {
+          "slug": "computer-room-management",
+          "name": "Computer room management",
+          "section": "Section E: Computer Maintenance and Safety Measures",
+          "difficulty": "average"
+        },
+        {
+          "slug": "communication-systems",
+          "name": "Communication systems",
+          "section": "Section F: Information and Communication Technology (ICT)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "application-areas-of-ict",
+          "name": "Application areas of ICT",
+          "section": "Section F: Information and Communication Technology (ICT)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "internet",
+          "name": "Internet",
+          "section": "Section F: Information and Communication Technology (ICT)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "electronic-mail",
+          "name": "Electronic mail",
+          "section": "Section F: Information and Communication Technology (ICT)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "networking",
+          "name": "Networking",
+          "section": "Section F: Information and Communication Technology (ICT)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "world-wide-web-www",
+          "name": "World Wide Web (WWW)",
+          "section": "Section F: Information and Communication Technology (ICT)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "cables-and-connectors",
+          "name": "Cables and connectors",
+          "section": "Section F: Information and Communication Technology (ICT)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "programming-language-pl",
+          "name": "Programming language (PL)",
+          "section": "Section G: Developing Problem-Solving Skills",
+          "difficulty": "average"
+        },
+        {
+          "slug": "high-level-languages-hll",
+          "name": "High level languages (HLL)",
+          "section": "Section G: Developing Problem-Solving Skills",
+          "difficulty": "average"
+        },
+        {
+          "slug": "algorithm-and-flowcharts",
+          "name": "Algorithm and flowcharts",
+          "section": "Section G: Developing Problem-Solving Skills",
+          "difficulty": "average"
+        },
+        {
+          "slug": "programming-language-structure",
+          "name": "Programming language structure",
+          "section": "Section G: Developing Problem-Solving Skills",
+          "difficulty": "average"
+        },
+        {
+          "slug": "program-development",
+          "name": "Program development",
+          "section": "Section G: Developing Problem-Solving Skills",
+          "difficulty": "average"
+        },
+        {
+          "slug": "system-development-life-cycle",
+          "name": "System development life cycle",
+          "section": "Section G: Developing Problem-Solving Skills",
+          "difficulty": "average"
+        },
+        {
+          "slug": "definition-of-ai",
+          "name": "Definition of AI",
+          "section": "Section H: Artificial Intelligence (AI) and Robotics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "branches-of-ai",
+          "name": "Branches of AI",
+          "section": "Section H: Artificial Intelligence (AI) and Robotics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "applications-of-ai",
+          "name": "Applications of AI",
+          "section": "Section H: Artificial Intelligence (AI) and Robotics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "fundamentals-of-robotics",
+          "name": "Fundamentals of robotics",
+          "section": "Section H: Artificial Intelligence (AI) and Robotics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ethical-issues",
+          "name": "Ethical issues",
+          "section": "Section I: Computer Ethics and Human Issues",
+          "difficulty": "average"
+        },
+        {
+          "slug": "computer-security",
+          "name": "Computer security",
+          "section": "Section I: Computer Ethics and Human Issues",
+          "difficulty": "average"
+        },
+        {
+          "slug": "cyber-risks-and-protection",
+          "name": "Cyber risks and protection",
+          "section": "Section I: Computer Ethics and Human Issues",
+          "difficulty": "average"
+        },
+        {
+          "slug": "potentials-for-higher-studies-in-computing",
+          "name": "Potentials for higher studies in computing",
+          "section": "Section I: Computer Ethics and Human Issues",
+          "difficulty": "average"
         }
       ]
     },
@@ -245,39 +1313,2649 @@
       "isCompulsory": false,
       "topics": [
         {
-          "slug": "theory-of-demand-supply-and-elasticity",
-          "name": "Theory of Demand, Supply & Elasticity",
+          "slug": "economics-as-a-science",
+          "name": "Economics as a science",
           "section": null,
           "difficulty": "average"
         },
         {
-          "slug": "production-cost-curves-and-scale-economies",
-          "name": "Production, Cost Curves & Scale Economies",
+          "slug": "economic-systems",
+          "name": "Economic systems",
           "section": null,
           "difficulty": "average"
         },
         {
-          "slug": "market-structures-perfect-and-monopoly",
-          "name": "Market Structures: Perfect & Monopoly",
+          "slug": "methods-and-tools-of-economic-analysis",
+          "name": "Methods and tools of economic analysis",
           "section": null,
           "difficulty": "average"
         },
         {
-          "slug": "national-income-accounting-and-gdp",
-          "name": "National Income Accounting & GDP",
+          "slug": "the-theory-of-demand",
+          "name": "The theory of demand",
           "section": null,
-          "difficulty": "weak"
+          "difficulty": "average"
         },
         {
-          "slug": "money-banking-inflation-and-monetary-policy",
-          "name": "Money, Banking, Inflation & Monetary Policy",
+          "slug": "the-theory-of-consumer-behaviour",
+          "name": "The theory of consumer behaviour",
           "section": null,
-          "difficulty": "weak"
+          "difficulty": "average"
         },
         {
-          "slug": "international-trade-and-exchange-rates",
-          "name": "International Trade & Exchange Rates",
+          "slug": "the-theory-of-supply",
+          "name": "The theory of supply",
           "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-theory-of-price-determination",
+          "name": "The theory of price determination",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-theory-of-production",
+          "name": "The theory of production",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "theory-of-costs-and-revenue",
+          "name": "Theory of costs and revenue",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "market-structures",
+          "name": "Market structures",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "national-income",
+          "name": "National income",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "money-and-inflation",
+          "name": "Money and inflation",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "financial-institutions",
+          "name": "Financial institutions",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "public-finance",
+          "name": "Public finance",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "economic-growth-and-development",
+          "name": "Economic growth and development",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "agriculture-in-nigeria",
+          "name": "Agriculture in Nigeria",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "industry-and-industrialization",
+          "name": "Industry and industrialization",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "natural-resources-and-the-nigerian-economy",
+          "name": "Natural resources and the Nigerian economy",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "business-organizations",
+          "name": "Business organizations",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "population",
+          "name": "Population",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "international-trade",
+          "name": "International trade",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "international-economic-organizations",
+          "name": "International economic organizations",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "factors-of-production-and-their-theories",
+          "name": "Factors of production and their theories",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "french",
+      "name": "French",
+      "color": "#2563EB",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "written-comprehension-in-french",
+          "name": "Written comprehension in French",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "identification-of-basic-form-classes",
+          "name": "Identification of basic form classes",
+          "section": "Principles governing the structure and use of written French",
+          "difficulty": "average"
+        },
+        {
+          "slug": "assessment-of-vocabulary-span",
+          "name": "Assessment of vocabulary span",
+          "section": "Principles governing the structure and use of written French",
+          "difficulty": "average"
+        },
+        {
+          "slug": "importance-of-word-order",
+          "name": "Importance of word order",
+          "section": "Principles governing the structure and use of written French",
+          "difficulty": "average"
+        },
+        {
+          "slug": "identification-and-application-of-basic-processes-in-language-structure",
+          "name": "Identification and application of basic processes in language structure",
+          "section": "Principles governing the structure and use of written French",
+          "difficulty": "average"
+        },
+        {
+          "slug": "use-of-french-in-set-expressions-proverbs-idioms-and-conventional-structures",
+          "name": "Use of French in set expressions (proverbs, idioms and conventional structures)",
+          "section": "Principles governing the structure and use of written French",
+          "difficulty": "average"
+        },
+        {
+          "slug": "workings-of-french-sounds",
+          "name": "Workings of French sounds",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "culture-and-civilization",
+          "name": "Culture and civilization",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "geography",
+      "name": "Geography",
+      "color": "#65A30D",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "maps",
+          "name": "Maps",
+          "section": "I: Practical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "scale-and-measurement-distances-areas-directions-bearings-gradients",
+          "name": "Scale and measurement (distances, areas, directions, bearings, gradients)",
+          "section": "I: Practical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "map-reading-and-interpretation",
+          "name": "Map reading and interpretation",
+          "section": "I: Practical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "interpretation-of-statistical-data-maps-and-diagrams",
+          "name": "Interpretation of statistical data, maps and diagrams",
+          "section": "I: Practical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "elementary-surveying",
+          "name": "Elementary surveying",
+          "section": "I: Practical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "geographic-information-system-gis",
+          "name": "Geographic Information System (GIS)",
+          "section": "I: Practical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-earth-as-a-planet",
+          "name": "The earth as a planet",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-earths-crust",
+          "name": "The earth's crust",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "volcanism-and-earthquakes",
+          "name": "Volcanism and earthquakes",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "denudation-processes-in-the-tropics",
+          "name": "Denudation processes in the tropics",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "water-bodies",
+          "name": "Water bodies",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "weather-and-climate",
+          "name": "Weather and climate",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "vegetation",
+          "name": "Vegetation",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "soils",
+          "name": "Soils",
+          "section": "II: Physical Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "population",
+          "name": "Population",
+          "section": "III: Human Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "settlement",
+          "name": "Settlement",
+          "section": "III: Human Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "broad-outline-of-nigeria",
+          "name": "Broad outline of Nigeria",
+          "section": "IV: Regional Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "economic-and-human-geography",
+          "name": "Economic and human geography",
+          "section": "IV: Regional Geography",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ecowas",
+          "name": "ECOWAS",
+          "section": "IV: Regional Geography",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "government",
+      "name": "Government",
+      "color": "#DC2626",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "definition-and-scope-of-government",
+          "name": "Definition and scope of government",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "basic-concepts-of-government",
+          "name": "Basic concepts of government",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "forms-of-government",
+          "name": "Forms of government",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "arms-of-government",
+          "name": "Arms of government",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "structures-of-governance",
+          "name": "Structures of governance",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "systems-of-governance",
+          "name": "Systems of governance",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "political-ideologies",
+          "name": "Political ideologies",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "constitution",
+          "name": "Constitution",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "principles-of-democratic-government",
+          "name": "Principles of democratic government",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "processes-of-legislation",
+          "name": "Processes of legislation",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "citizenship",
+          "name": "Citizenship",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-electoral-process",
+          "name": "The electoral process",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "political-parties-and-party-systems",
+          "name": "Political parties and party systems",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "pressure-groups",
+          "name": "Pressure groups",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "public-opinion",
+          "name": "Public opinion",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-civil-service-public-service",
+          "name": "The civil service/public service",
+          "section": "Part I: Elements of Government",
+          "difficulty": "average"
+        },
+        {
+          "slug": "pre-colonial-polities",
+          "name": "Pre-colonial polities",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "imperialist-penetration",
+          "name": "Imperialist penetration",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "process-of-decolonization",
+          "name": "Process of decolonization",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "constitutional-development-in-nigeria",
+          "name": "Constitutional development in Nigeria",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "post-independence-constitutions",
+          "name": "Post-independence constitutions",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "institutions-of-government-in-post-independence-nigeria",
+          "name": "Institutions of government in post-independence Nigeria",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "public-commissions-established-by-the-1979-and-subsequent-constitutions",
+          "name": "Public commissions established by the 1979 and subsequent constitutions",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "political-parties-and-party-politics-in-post-independence-nigeria",
+          "name": "Political parties and party politics in post-independence Nigeria",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-structure-and-workings-of-nigerian-federalism",
+          "name": "The structure and workings of Nigerian federalism",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "public-corporations-and-parastatals",
+          "name": "Public corporations and parastatals",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "local-government",
+          "name": "Local government",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-military-in-nigerian-politics",
+          "name": "The military in Nigerian politics",
+          "section": "Part II: Political Development in Nigeria",
+          "difficulty": "average"
+        },
+        {
+          "slug": "foreign-policy",
+          "name": "Foreign policy",
+          "section": "Part III: Foreign Policy and Nigeria's Relationship with the International Community",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nigerias-foreign-policy",
+          "name": "Nigeria's foreign policy",
+          "section": "Part III: Foreign Policy and Nigeria's Relationship with the International Community",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nigerias-relations-with-african-countries",
+          "name": "Nigeria's relations with African countries",
+          "section": "Part III: Foreign Policy and Nigeria's Relationship with the International Community",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nigeria-in-international-organizations",
+          "name": "Nigeria in international organizations",
+          "section": "Part III: Foreign Policy and Nigeria's Relationship with the International Community",
+          "difficulty": "average"
+        },
+        {
+          "slug": "international-organizations",
+          "name": "International organizations",
+          "section": "Part IV: International Organizations",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "hausa",
+      "name": "Hausa",
+      "color": "#CA8A04",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "kaidojin-rubutu-orthography",
+          "name": "Ƙa'idojin Rubutu (Orthography)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "auna-fahimta-comprehension",
+          "name": "Auna Fahimta (Comprehension)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "tsarin-rubutun-inshai-composition-techniques",
+          "name": "Tsarin Rubutun Insha'i (Composition Techniques)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "fassara-translation",
+          "name": "Fassara (Translation)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "tsarin-sauti-phonology",
+          "name": "Tsarin Sauti (Phonology)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "kirar-kalma-morphology",
+          "name": "Ƙirar Kalma (Morphology)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ginin-jumla-syntax",
+          "name": "Ginin Jumla (Syntax)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "maana-semantics",
+          "name": "Ma'ana (Semantics)",
+          "section": "Harshe (Language)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "rayuwar-hausawa-hausa-customs",
+          "name": "Rayuwar Hausawa (Hausa customs)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "zamantakewa-social-institutions",
+          "name": "Zamantakewa (Social Institutions)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sanaoin-gargajiya-traditional-occupations",
+          "name": "Sana'o'in Gargajiya (Traditional Occupations)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "kayayyakin-bukatun-rayuwa-material-culture",
+          "name": "Kayayyakin Buƙatun Rayuwa (Material Culture)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "bukukuwa-da-wasanni-hausa-festivities-and-recreational-activities",
+          "name": "Bukukuwa da Wasanni (Hausa festivities and recreational activities)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "camfe-camfe-da-bauta-traditional-beliefs-and-worship",
+          "name": "Camfe-camfe da Bauta (Traditional Beliefs and Worship)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sarautun-gargajiya-traditional-authority",
+          "name": "Sarautun Gargajiya (Traditional Authority)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "magungunan-gargajiya-traditional-medicine",
+          "name": "Magungunan Gargajiya (Traditional Medicine)",
+          "section": "Al'adu (Culture)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "zuben-baka-narratives",
+          "name": "Zuben Baka (Narratives)",
+          "section": "Adabin Baka (Oral literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "maganganun-azanci-folk-sayings",
+          "name": "Maganganun Azanci (Folk-sayings)",
+          "section": "Adabin Baka (Oral literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "wakoki-na-baka-oral-songs",
+          "name": "Waƙoƙi na baka (Oral songs)",
+          "section": "Adabin Baka (Oral literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "wasannin-kwaikwayo-na-gargajiya-traditional-drama",
+          "name": "Wasannin Kwaikwayo Na Gargajiya (Traditional Drama)",
+          "section": "Adabin Baka (Oral literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "zube-prose-maraya",
+          "name": "Zube (Prose): Maraya",
+          "section": "Rubutaccen Adabi (Written literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "waka-poetry-wakokin-wayar-da-kai-don-manazarta-hausa-na-daya",
+          "name": "Waƙa (Poetry): Waƙoƙin Wayar Da Kai Don Manazarta Hausa Na Ɗaya",
+          "section": "Rubutaccen Adabi (Written literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "wasan-kwaikwayo-drama-malam-zalimu",
+          "name": "Wasan Kwaikwayo (Drama): Malam Zalimu",
+          "section": "Rubutaccen Adabi (Written literature)",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "color": "#92400E",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "land-and-peoples-of-the-nigeria-area",
+          "name": "Land and Peoples of the Nigeria Area",
+          "section": "Part I, Section A: The Nigeria Area up to 1800",
+          "difficulty": "average"
+        },
+        {
+          "slug": "early-centres-of-civilization",
+          "name": "Early Centres of Civilization",
+          "section": "Part I, Section A: The Nigeria Area up to 1800",
+          "difficulty": "average"
+        },
+        {
+          "slug": "origins-and-formation-of-states-in-the-nigeria-area",
+          "name": "Origins and formation of States in the Nigeria Area",
+          "section": "Part I, Section A: The Nigeria Area up to 1800",
+          "difficulty": "average"
+        },
+        {
+          "slug": "economic-activities-and-growth-of-states",
+          "name": "Economic Activities and Growth of States",
+          "section": "Part I, Section A: The Nigeria Area up to 1800",
+          "difficulty": "average"
+        },
+        {
+          "slug": "external-influences",
+          "name": "External Influences",
+          "section": "Part I, Section A: The Nigeria Area up to 1800",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-sokoto-caliphate",
+          "name": "The Sokoto Caliphate",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "kanem-borno",
+          "name": "Kanem-Borno",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "yorubaland",
+          "name": "Yorubaland",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "benin",
+          "name": "Benin",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nupe",
+          "name": "Nupe",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "igbo",
+          "name": "Igbo",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "efik",
+          "name": "Efik",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "european-penetration-and-impact",
+          "name": "European Penetration and Impact",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "british-conquest-of-the-nigeria-area",
+          "name": "British Conquest of the Nigeria Area",
+          "section": "Part I, Section B: The Nigeria Area 1800 to 1900",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-establishment-of-colonial-rule-up-to-1914",
+          "name": "The Establishment of Colonial Rule up to 1914",
+          "section": "Part I, Section C: Nigeria 1900 to 1960",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-amalgamation-of-1914",
+          "name": "The Amalgamation of 1914",
+          "section": "Part I, Section C: Nigeria 1900 to 1960",
+          "difficulty": "average"
+        },
+        {
+          "slug": "colonial-administration-after-the-amalgamation",
+          "name": "Colonial Administration After the Amalgamation",
+          "section": "Part I, Section C: Nigeria 1900 to 1960",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-colonial-economy",
+          "name": "The Colonial Economy",
+          "section": "Part I, Section C: Nigeria 1900 to 1960",
+          "difficulty": "average"
+        },
+        {
+          "slug": "social-development-under-colonial-rule",
+          "name": "Social Development under Colonial Rule",
+          "section": "Part I, Section C: Nigeria 1900 to 1960",
+          "difficulty": "average"
+        },
+        {
+          "slug": "constitutional-developments-nationalism-and-independence",
+          "name": "Constitutional Developments, Nationalism and Independence",
+          "section": "Part I, Section C: Nigeria 1900 to 1960",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-politics-of-the-first-republic-and-military-intervention",
+          "name": "The Politics of the First Republic and Military Intervention",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-nigerian-civil-war",
+          "name": "The Nigerian Civil War",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-gowon-regime",
+          "name": "The Gowon Regime",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "murtala-obasanjo-regime",
+          "name": "Murtala/Obasanjo Regime",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-second-republic",
+          "name": "The Second Republic",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-buhari-regime",
+          "name": "The Buhari Regime",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-babangida-regime",
+          "name": "The Babangida Regime",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-interim-national-government-ing",
+          "name": "The Interim National Government (ING)",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-abacha-regime",
+          "name": "The Abacha Regime",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "transition-to-the-fourth-republic",
+          "name": "Transition to the Fourth Republic",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nigeria-in-international-organizations",
+          "name": "Nigeria in International Organizations",
+          "section": "Part I, Section D: Nigeria Since Independence",
+          "difficulty": "average"
+        },
+        {
+          "slug": "islamic-reform-movements-and-state-building-in-west-africa",
+          "name": "Islamic Reform Movements and State Building in West Africa",
+          "section": "Part II, Section A: West and North Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sierra-leone-liberia-and-christian-missionary-activities-in-west-africa",
+          "name": "Sierra Leone, Liberia and Christian Missionary Activities in West Africa",
+          "section": "Part II, Section A: West and North Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "egypt-under-mohammed-ali-and-khedive-ismail",
+          "name": "Egypt under Mohammed Ali and Khedive Ismail",
+          "section": "Part II, Section A: West and North Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ethiopia-in-the-19th-century",
+          "name": "Ethiopia in the 19th Century",
+          "section": "Part II, Section B: Horn of Africa and Southern Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-mfecane",
+          "name": "The Mfecane",
+          "section": "Part II, Section B: Horn of Africa and Southern Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-great-trek",
+          "name": "The Great Trek",
+          "section": "Part II, Section B: Horn of Africa and Southern Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-new-imperialism-and-european-occupation-of-africa",
+          "name": "The New Imperialism and European Occupation of Africa",
+          "section": "Part II, Section C: Imperialism, Colonialism and Problems of Nation-building in Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "patterns-of-colonial-rule-in-africa",
+          "name": "Patterns of Colonial Rule in Africa",
+          "section": "Part II, Section C: Imperialism, Colonialism and Problems of Nation-building in Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-politics-of-decolonization",
+          "name": "The Politics of Decolonization",
+          "section": "Part II, Section C: Imperialism, Colonialism and Problems of Nation-building in Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "apartheid-in-south-africa",
+          "name": "Apartheid in South Africa",
+          "section": "Part II, Section C: Imperialism, Colonialism and Problems of Nation-building in Africa",
+          "difficulty": "average"
+        },
+        {
+          "slug": "problems-of-nation-building-in-africa",
+          "name": "Problems of Nation-building in Africa",
+          "section": "Part II, Section C: Imperialism, Colonialism and Problems of Nation-building in Africa",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "home-economics",
+      "name": "Home Economics",
+      "color": "#F43F5E",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "home-economics",
+          "name": "Home Economics",
+          "section": "Section A: Home Economics Education",
+          "difficulty": "average"
+        },
+        {
+          "slug": "areas-careers-in-home-economics",
+          "name": "Areas/Careers in Home Economics",
+          "section": "Section A: Home Economics Education",
+          "difficulty": "average"
+        },
+        {
+          "slug": "interrelationship-of-home-economics-with-other-subjects",
+          "name": "Interrelationship of Home Economics with other subjects",
+          "section": "Section A: Home Economics Education",
+          "difficulty": "average"
+        },
+        {
+          "slug": "principles-of-home-management",
+          "name": "Principles of Home Management",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "resources",
+          "name": "Resources",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "family-living",
+          "name": "Family Living",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "marriage-and-reproductive-health",
+          "name": "Marriage and Reproductive Health",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "pregnancy-and-childbirth",
+          "name": "Pregnancy and childbirth",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "housing-the-family",
+          "name": "Housing the family",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "home-surfaces",
+          "name": "Home surfaces",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sanitation-in-the-home",
+          "name": "Sanitation in the Home",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "consumer-education",
+          "name": "Consumer Education",
+          "section": "Section B: Home Management",
+          "difficulty": "average"
+        },
+        {
+          "slug": "foods-and-nutrition",
+          "name": "Foods and Nutrition",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "meal-planning",
+          "name": "Meal planning",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "cookers-and-cooking",
+          "name": "Cookers and cooking",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "flours-and-uses",
+          "name": "Flours and uses",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "basic-mixtures",
+          "name": "Basic mixtures",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "scientific-methods-in-foods-and-nutrition",
+          "name": "Scientific methods in Foods and Nutrition",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-kitchen",
+          "name": "The Kitchen",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "kitchen-safety-and-hygiene",
+          "name": "Kitchen safety and hygiene",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "food-storage-and-preservation",
+          "name": "Food Storage and Preservation",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "home-gardening",
+          "name": "Home Gardening",
+          "section": "Section C: Foods and Nutrition",
+          "difficulty": "average"
+        },
+        {
+          "slug": "fibres-and-fabrics",
+          "name": "Fibres and Fabrics",
+          "section": "Section D: Clothing and Textile",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sewing-equipment-and-garment-construction",
+          "name": "Sewing equipment and garment construction",
+          "section": "Section D: Clothing and Textile",
+          "difficulty": "average"
+        },
+        {
+          "slug": "laundry-and-care-of-clothes",
+          "name": "Laundry and care of clothes",
+          "section": "Section D: Clothing and Textile",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "igbo",
+      "name": "Igbo",
+      "color": "#EA580C",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "edemede-essay",
+          "name": "Edemede (Essay)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "aghotaazaa-comprehension",
+          "name": "Aghọtaazaa (Comprehension)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "udaasusu-na-usoro-udaasusu-sounds-and-sound-patterns",
+          "name": "Ụdaasụsụ na Usoro Ụdaasụsụ (Sounds and Sound Patterns)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nsupe-na-iwu-nsupe-spelling-and-spelling-rules",
+          "name": "Nsupe na Iwu Nsupe (Spelling and spelling rules)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "mkpuruedemede-igbo-igbo-orthography",
+          "name": "Mkpụrụedemede Igbo (Igbo Orthography)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "olundi-olumba-na-igbo-izugbe-dialect-and-standard-igbo",
+          "name": "Olundị/Olumba na Igbo Izugbe (Dialect and Standard Igbo)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "usoro-mmubaokwu-nigbo-igbo-word-derivation",
+          "name": "Usoro Mmụbaokwu n'Igbo (Igbo Word Derivation)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "utoasusu-grammar",
+          "name": "Ụtọasụsụ (Grammar)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ntughari-translation",
+          "name": "Ntụgharị (Translation)",
+          "section": "Section A: Asụsụ (Languages)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "atumatuokwu-literary-devices",
+          "name": "Atụmatụokwu (Literary devices)",
+          "section": "Section B: Agụmagụ (Literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "agumagu-onu-agumagu-odinala-oral-literature",
+          "name": "Agụmagụ Ọnụ/Agụmagụ Ọdịnala (Oral Literature)",
+          "section": "Section B: Agụmagụ (Literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "written-literature-prose-juo-obinna",
+          "name": "Written literature, prose: Jụọ Obinna",
+          "section": "Section B: Agụmagụ (Literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "written-literature-poetry-akonuche-selected-poems",
+          "name": "Written literature, poetry: Akọnuche (selected poems)",
+          "section": "Section B: Agụmagụ (Literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "written-literature-drama-otu-mkpisi-aka",
+          "name": "Written literature, drama: Otu Mkpịsị Aka",
+          "section": "Section B: Agụmagụ (Literature)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ekele-di-iche-iche",
+          "name": "Ekele dị iche iche",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "alumdi-na-nwunye-igba-alukwaghim",
+          "name": "Alụmdi na nwunye, ịgba alụkwaghịm",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "omumu-na-ile-omugwo-ikuputa-nwa-ibi-ugwu-igu-aha-izu-ahia-nwa-ihu-eze",
+          "name": "Ọmụmụ na ile ọmụgwọ, ikupụta nwa, ibi ugwu, ịgụ aha, ịzụ ahịa nwa, ịhụ eze",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "echichi",
+          "name": "Echichi",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ike-ekpe-iri-ekpe-ikwa-ozu-igba-mkpe",
+          "name": "Ike ekpe, iri ekpe, ịkwa ozu, ịgba mkpe",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "umunna-umuokpu-umuada-iyomdi-nwadiala",
+          "name": "Ụmụnna, ụmụọkpụ/ụmụada, iyomdi, nwadiala",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ogbo-ebiri-uke-ohanaeze-ezinaulo",
+          "name": "Ọgbọ/ebiri/uke, ọhanaeze, ezinaụlọ",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "aru-na-nsoala",
+          "name": "Arụ na nsọala",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ochichi-odinala",
+          "name": "Ọchịchị Ọdịnala",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nnabata-obia-oji-na-itu-nzu-itu-aha-ikwo-aka-ututu-igo-ofo",
+          "name": "Nnabata ọbịa, ọji na ịtu nzu, itu aha, ịkwọ aka ụtụtụ, ịgọ ọfọ",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ihe-ofufe",
+          "name": "Ihe ofufe",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ngwa-ofufe",
+          "name": "Ngwa ofufe",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nkwenye",
+          "name": "Nkwenye",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "akunauba",
+          "name": "Akụnaụba",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "abamaba",
+          "name": "Abamaba",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "egwuregwu",
+          "name": "Egwuregwu",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "akaoru-ndi-igbo",
+          "name": "Akaọrụ ndị Igbo",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "emume",
+          "name": "Emume",
+          "section": "Section C: Omenala na Ewumewu (Customs and Institutions)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "topical-issues-in-igbo-language-literature-and-culture",
+          "name": "Topical issues in Igbo language, literature and culture",
+          "section": "Section D: Ihe Ndị na-eme Ugbua (General and Current Affairs)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "authors-publishers-dates-and-places-of-publication",
+          "name": "Authors, publishers, dates and places of publication",
+          "section": "Section D: Ihe Ndị na-eme Ugbua (General and Current Affairs)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "igbo-studies-association-isa",
+          "name": "Igbo Studies Association (ISA)",
+          "section": "Section D: Ihe Ndị na-eme Ugbua (General and Current Affairs)",
+          "difficulty": "average"
+        },
+        {
+          "slug": "okwuakpunonu-current-issues",
+          "name": "Okwuakpụnọnụ (Current issues)",
+          "section": "Section D: Ihe Ndị na-eme Ugbua (General and Current Affairs)",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "islamic-religious-studies",
+      "name": "Islamic Religious Studies",
+      "color": "#15803D",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "revelation-of-the-glorious-quran",
+          "name": "Revelation of the Glorious Qur'ān",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "preservation-of-the-glorious-quran",
+          "name": "Preservation of the Glorious Qur'ān",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "importance-of-the-glorious-quran",
+          "name": "Importance of the Glorious Qur'ān",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "divine-authenticity-of-the-glorious-quran",
+          "name": "Divine authenticity of the Glorious Qur'ān",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "tafsir",
+          "name": "Tafsīr",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "introduction-to-tajwid",
+          "name": "Introduction to Tajwīd",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "arabic-text-with-tajwid-surahs-1-100-to-104-and-107-to-114",
+          "name": "Arabic text with tajwīd: Sūrahs 1, 100 to 104 and 107 to 114",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "arabic-text-with-tajwid-surahs-87-and-93-to-99-plus-q-2-255-q-2-285-6-and-q-9-128-129",
+          "name": "Arabic text with tajwīd: Sūrahs 87 and 93 to 99, plus Q.2:255, Q.2:285-6 and Q.9:128-129",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "hadith",
+          "name": "Hadīth",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "moral-lessons-in-the-glorious-quran-and-hadith",
+          "name": "Moral lessons in the Glorious Qur'ān and Hadīth",
+          "section": "Part I: The Qur'ān and Hadīth",
+          "difficulty": "average"
+        },
+        {
+          "slug": "tawhid-faith-kalimatush-shahadah-shirk-and-practices-incompatible-with-tawhid",
+          "name": "Tawḥīd: faith, Kalimatush-Shahādah, shirk and practices incompatible with Tawḥīd",
+          "section": "Part II: Tawḥīd and Fiqh",
+          "difficulty": "average"
+        },
+        {
+          "slug": "articles-of-faith",
+          "name": "Articles of faith",
+          "section": "Part II: Tawḥīd and Fiqh",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ibadat-and-their-types",
+          "name": "Ibādāt and their types",
+          "section": "Part II: Tawḥīd and Fiqh",
+          "difficulty": "average"
+        },
+        {
+          "slug": "family-matters",
+          "name": "Family matters",
+          "section": "Part II: Tawḥīd and Fiqh",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sources-and-schools-of-law",
+          "name": "Sources and Schools of Law",
+          "section": "Part II: Tawḥīd and Fiqh",
+          "difficulty": "average"
+        },
+        {
+          "slug": "islamic-economic-system",
+          "name": "Islamic Economic System",
+          "section": "Part II: Tawḥīd and Fiqh",
+          "difficulty": "average"
+        },
+        {
+          "slug": "islamic-political-system",
+          "name": "Islamic Political System",
+          "section": "Part II: Tawḥīd and Fiqh",
+          "difficulty": "average"
+        },
+        {
+          "slug": "pre-islamic-arabia-jahiliyyah",
+          "name": "Pre-Islamic Arabia (Jāhiliyyah)",
+          "section": "Part III: Islamic History and Civilization",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-life-of-prophet-muhammad-saw",
+          "name": "The Life of Prophet Muhammad (SAW)",
+          "section": "Part III: Islamic History and Civilization",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-rightly-guided-caliphs",
+          "name": "The Rightly Guided Caliphs",
+          "section": "Part III: Islamic History and Civilization",
+          "difficulty": "average"
+        },
+        {
+          "slug": "early-contact-of-islam-with-africa",
+          "name": "Early contact of Islam with Africa",
+          "section": "Part III: Islamic History and Civilization",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-impact-of-islam-in-west-africa",
+          "name": "The Impact of Islam in West Africa",
+          "section": "Part III: Islamic History and Civilization",
+          "difficulty": "average"
+        },
+        {
+          "slug": "contributions-of-islam-to-education",
+          "name": "Contributions of Islam to Education",
+          "section": "Part III: Islamic History and Civilization",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "literature-in-english",
+      "name": "Literature in English",
+      "color": "#BE185D",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "drama-types-dramatic-techniques-and-interpretation",
+          "name": "Drama: types, dramatic techniques and interpretation",
+          "section": "1: Drama",
+          "difficulty": "average"
+        },
+        {
+          "slug": "marriage-of-anansewa-efua-sutherland",
+          "name": "Marriage of Anansewa (Efua Sutherland)",
+          "section": "1: Drama",
+          "difficulty": "average"
+        },
+        {
+          "slug": "antony-and-cleopatra-william-shakespeare",
+          "name": "Antony and Cleopatra (William Shakespeare)",
+          "section": "1: Drama",
+          "difficulty": "average"
+        },
+        {
+          "slug": "prose-types-narrative-techniques-and-textual-analysis",
+          "name": "Prose: types, narrative techniques and textual analysis",
+          "section": "2: Prose",
+          "difficulty": "average"
+        },
+        {
+          "slug": "so-the-path-does-not-die-pede-hollist",
+          "name": "So the Path Does Not Die (Pede Hollist)",
+          "section": "2: Prose",
+          "difficulty": "average"
+        },
+        {
+          "slug": "redemption-road-elma-shaw",
+          "name": "Redemption Road (Elma Shaw)",
+          "section": "2: Prose",
+          "difficulty": "average"
+        },
+        {
+          "slug": "path-of-lucas-the-journey-he-endured-susanne-bellefeuille",
+          "name": "Path of Lucas: The Journey He Endured (Susanne Bellefeuille)",
+          "section": "2: Prose",
+          "difficulty": "average"
+        },
+        {
+          "slug": "poetry-types-poetic-devices-and-appreciation",
+          "name": "Poetry: types, poetic devices and appreciation",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "once-upon-a-time-gabriel-okara",
+          "name": "Once Upon a Time (Gabriel Okara)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "new-tongue-elizabeth-l-a-kamara",
+          "name": "New Tongue (Elizabeth L.A. Kamara)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "night-wole-soyinka",
+          "name": "Night (Wole Soyinka)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "not-my-business-niyi-osundare",
+          "name": "Not My Business (Niyi Osundare)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "hearty-garlands-s-o-h-afriyie-vidza",
+          "name": "Hearty Garlands (S.O.H. Afriyie-Vidza)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-breast-of-the-sea-syl-cheney-coker",
+          "name": "The Breast of the Sea (Syl Cheney-Coker)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "she-walks-in-beauty-lord-byron",
+          "name": "She Walks in Beauty (Lord Byron)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-nuns-priests-tale-shortened-geoffrey-chaucer",
+          "name": "The Nun's Priest's Tale, shortened (Geoffrey Chaucer)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-telephone-call-fleur-adcock",
+          "name": "The Telephone Call (Fleur Adcock)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-stone-wilfred-wilson-gibson",
+          "name": "The Stone (Wilfred Wilson Gibson)",
+          "section": "3: Poetry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "general-literary-terms-and-principles",
+          "name": "General literary terms and principles",
+          "section": "4: General literary terms and principles",
+          "difficulty": "average"
+        },
+        {
+          "slug": "literary-appreciation-unseen-passages",
+          "name": "Literary appreciation: unseen passages",
+          "section": "5: Literary appreciation",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "color": "#3B82F6",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "number-bases-and-modular-arithmetic",
+          "name": "Number bases and modular arithmetic",
+          "section": "Section I: Number and Numeration",
+          "difficulty": "average"
+        },
+        {
+          "slug": "fractions-decimals-approximations-and-percentages",
+          "name": "Fractions, decimals, approximations and percentages",
+          "section": "Section I: Number and Numeration",
+          "difficulty": "average"
+        },
+        {
+          "slug": "indices-logarithms-and-surds",
+          "name": "Indices, logarithms and surds",
+          "section": "Section I: Number and Numeration",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sets",
+          "name": "Sets",
+          "section": "Section I: Number and Numeration",
+          "difficulty": "average"
+        },
+        {
+          "slug": "polynomials",
+          "name": "Polynomials",
+          "section": "Section II: Algebra",
+          "difficulty": "average"
+        },
+        {
+          "slug": "variation",
+          "name": "Variation",
+          "section": "Section II: Algebra",
+          "difficulty": "average"
+        },
+        {
+          "slug": "inequalities",
+          "name": "Inequalities",
+          "section": "Section II: Algebra",
+          "difficulty": "average"
+        },
+        {
+          "slug": "progression",
+          "name": "Progression",
+          "section": "Section II: Algebra",
+          "difficulty": "average"
+        },
+        {
+          "slug": "binary-operations",
+          "name": "Binary operations",
+          "section": "Section II: Algebra",
+          "difficulty": "average"
+        },
+        {
+          "slug": "matrices-and-determinants",
+          "name": "Matrices and determinants",
+          "section": "Section II: Algebra",
+          "difficulty": "average"
+        },
+        {
+          "slug": "euclidean-geometry",
+          "name": "Euclidean geometry",
+          "section": "Section III: Geometry and Trigonometry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "mensuration",
+          "name": "Mensuration",
+          "section": "Section III: Geometry and Trigonometry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "loci",
+          "name": "Loci",
+          "section": "Section III: Geometry and Trigonometry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "coordinate-geometry",
+          "name": "Coordinate geometry",
+          "section": "Section III: Geometry and Trigonometry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "trigonometry",
+          "name": "Trigonometry",
+          "section": "Section III: Geometry and Trigonometry",
+          "difficulty": "average"
+        },
+        {
+          "slug": "differentiation",
+          "name": "Differentiation",
+          "section": "Section IV: Calculus",
+          "difficulty": "average"
+        },
+        {
+          "slug": "application-of-differentiation",
+          "name": "Application of differentiation",
+          "section": "Section IV: Calculus",
+          "difficulty": "average"
+        },
+        {
+          "slug": "integration",
+          "name": "Integration",
+          "section": "Section IV: Calculus",
+          "difficulty": "average"
+        },
+        {
+          "slug": "representation-of-data",
+          "name": "Representation of data",
+          "section": "Section V: Statistics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "measures-of-location",
+          "name": "Measures of location",
+          "section": "Section V: Statistics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "measures-of-dispersion",
+          "name": "Measures of dispersion",
+          "section": "Section V: Statistics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "permutation-and-combination",
+          "name": "Permutation and combination",
+          "section": "Section V: Statistics",
+          "difficulty": "average"
+        },
+        {
+          "slug": "probability",
+          "name": "Probability",
+          "section": "Section V: Statistics",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "color": "#A855F7",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "the-staff",
+          "name": "The staff",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "music-notes-and-rests-and-their-values",
+          "name": "Music notes and rests and their values",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "time-signature",
+          "name": "Time signature",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "key-signatures-and-scales",
+          "name": "Key signatures and scales",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "keyboard-setting-enharmonic-equivalents-and-accidentals",
+          "name": "Keyboard setting, enharmonic equivalents and accidentals",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "intervals",
+          "name": "Intervals",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "simple-musical-terms-signs-and-abbreviations",
+          "name": "Simple musical terms, signs and abbreviations",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "transcription-and-transposition",
+          "name": "Transcription and transposition",
+          "section": "A: Rudiments of Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "triads-and-their-inversions",
+          "name": "Triads and their inversions",
+          "section": "B: Elementary Harmony",
+          "difficulty": "average"
+        },
+        {
+          "slug": "basic-chord-progressions-and-the-dominant-7th",
+          "name": "Basic chord progressions and the dominant 7th",
+          "section": "B: Elementary Harmony",
+          "difficulty": "average"
+        },
+        {
+          "slug": "kinds-of-motion",
+          "name": "Kinds of motion",
+          "section": "B: Elementary Harmony",
+          "difficulty": "average"
+        },
+        {
+          "slug": "cadences",
+          "name": "Cadences",
+          "section": "B: Elementary Harmony",
+          "difficulty": "average"
+        },
+        {
+          "slug": "non-harmonic-tones",
+          "name": "Non-harmonic tones",
+          "section": "B: Elementary Harmony",
+          "difficulty": "average"
+        },
+        {
+          "slug": "modulation",
+          "name": "Modulation",
+          "section": "B: Elementary Harmony",
+          "difficulty": "average"
+        },
+        {
+          "slug": "elementary-composition",
+          "name": "Elementary composition",
+          "section": "B: Elementary Harmony",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nigerian-folksongs-types-forms-and-characteristics",
+          "name": "Nigerian folksongs: types, forms and characteristics",
+          "section": "C: History and Literature of African Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "features-and-forms-of-nigerian-traditional-music-and-other-arts",
+          "name": "Features and forms of Nigerian traditional music and other arts",
+          "section": "C: History and Literature of African Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nigerian-traditional-musical-instruments",
+          "name": "Nigerian traditional musical instruments",
+          "section": "C: History and Literature of African Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "lives-and-music-of-african-traditional-musicians",
+          "name": "Lives and music of African traditional musicians",
+          "section": "C: History and Literature of African Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "evolution-and-development-of-african-popular-music",
+          "name": "Evolution and development of African popular music",
+          "section": "C: History and Literature of African Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "lives-and-music-of-african-popular-musicians",
+          "name": "Lives and music of African popular musicians",
+          "section": "C: History and Literature of African Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "lives-and-music-of-african-art-musicians",
+          "name": "Lives and music of African art musicians",
+          "section": "C: History and Literature of African Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "historical-development-of-western-music-styles-the-periods",
+          "name": "Historical development of Western music styles (the periods)",
+          "section": "D: History and Literature of Western Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "western-composers",
+          "name": "Western composers",
+          "section": "D: History and Literature of Western Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "music-forms-and-media-includes-computer-music-technology-and-an-introduction-to-ai-in-music",
+          "name": "Music forms and media (includes computer music technology and an introduction to AI in music)",
+          "section": "D: History and Literature of Western Music",
+          "difficulty": "average"
+        },
+        {
+          "slug": "black-musicians-in-the-diaspora",
+          "name": "Black musicians in the diaspora",
+          "section": "E: Comparative Music Studies",
+          "difficulty": "average"
+        },
+        {
+          "slug": "forms-of-diaspora-music",
+          "name": "Forms of diaspora music",
+          "section": "E: Comparative Music Studies",
+          "difficulty": "average"
+        },
+        {
+          "slug": "the-spirit-of-nationalism-in-nigerian-music",
+          "name": "The spirit of nationalism in Nigerian music",
+          "section": "E: Comparative Music Studies",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "physical-and-health-education",
+      "name": "Physical and Health Education",
+      "color": "#F97316",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "principles-meaning-scope-and-philosophy-of-physical-education",
+          "name": "Principles, meaning, scope and philosophy of Physical Education",
+          "section": "A: Foundations and Principles of PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "philosophy-objectives-and-settings-of-health-education",
+          "name": "Philosophy, objectives and settings of Health Education",
+          "section": "A: Foundations and Principles of PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "cells-tissues-and-systems-of-the-human-body",
+          "name": "Cells, tissues and systems of the human body",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "skeletal-system",
+          "name": "Skeletal system",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "muscular-system",
+          "name": "Muscular system",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nervous-system-and-sense-organs",
+          "name": "Nervous system and sense organs",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "circulatory-system",
+          "name": "Circulatory system",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "respiratory-system",
+          "name": "Respiratory system",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "excretory-system",
+          "name": "Excretory system",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "somatotypes-and-posture",
+          "name": "Somatotypes and posture",
+          "section": "B: Human Anatomy and Physiology in relation to PHE",
+          "difficulty": "average"
+        },
+        {
+          "slug": "athletics-track-and-field-events",
+          "name": "Athletics (track and field events)",
+          "section": "C: Theory of Practice of Sports and Games",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ball-games-football-and-basketball",
+          "name": "Ball games: football and basketball",
+          "section": "C: Theory of Practice of Sports and Games",
+          "difficulty": "average"
+        },
+        {
+          "slug": "racket-games-table-tennis-and-badminton",
+          "name": "Racket games: table tennis and badminton",
+          "section": "C: Theory of Practice of Sports and Games",
+          "difficulty": "average"
+        },
+        {
+          "slug": "food",
+          "name": "Food",
+          "section": "D: Food, Nutrition and Drugs",
+          "difficulty": "average"
+        },
+        {
+          "slug": "nutrition",
+          "name": "Nutrition",
+          "section": "D: Food, Nutrition and Drugs",
+          "difficulty": "average"
+        },
+        {
+          "slug": "drugs",
+          "name": "Drugs",
+          "section": "D: Food, Nutrition and Drugs",
+          "difficulty": "average"
+        },
+        {
+          "slug": "physical-fitness",
+          "name": "Physical fitness",
+          "section": "E: Physical Fitness and Conditioning Programmes",
+          "difficulty": "average"
+        },
+        {
+          "slug": "conditioning-programme",
+          "name": "Conditioning programme",
+          "section": "E: Physical Fitness and Conditioning Programmes",
+          "difficulty": "average"
+        },
+        {
+          "slug": "recreation-and-leisure",
+          "name": "Recreation and leisure",
+          "section": "F: Recreation, Leisure and Dance",
+          "difficulty": "average"
+        },
+        {
+          "slug": "dance",
+          "name": "Dance",
+          "section": "F: Recreation, Leisure and Dance",
+          "difficulty": "average"
+        },
+        {
+          "slug": "first-aid",
+          "name": "First aid",
+          "section": "G: First Aid and Safety Education",
+          "difficulty": "average"
+        },
+        {
+          "slug": "safety-education",
+          "name": "Safety education",
+          "section": "G: First Aid and Safety Education",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sports-competitions-at-national-level",
+          "name": "Sports competitions at national level",
+          "section": "H: National and International Sports Competitions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "names-and-roles-of-institutional-games",
+          "name": "Names and roles of institutional games",
+          "section": "H: National and International Sports Competitions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "international-sports-competitions-and-the-governing-bodies",
+          "name": "International sports competitions and the governing bodies",
+          "section": "H: National and International Sports Competitions",
+          "difficulty": "average"
+        },
+        {
+          "slug": "meaning-and-types-of-disability-and-special-needs",
+          "name": "Meaning and types of disability and special needs",
+          "section": "I: Corrective and Adapted Physical Education Programme",
+          "difficulty": "average"
+        },
+        {
+          "slug": "adapted-physical-activities-for-people-with-disabilities-and-special-needs",
+          "name": "Adapted physical activities for people with disabilities and special needs",
+          "section": "I: Corrective and Adapted Physical Education Programme",
+          "difficulty": "average"
+        },
+        {
+          "slug": "social-and-emotional-problems-of-people-with-special-needs",
+          "name": "Social and emotional problems of people with special needs",
+          "section": "I: Corrective and Adapted Physical Education Programme",
+          "difficulty": "average"
+        },
+        {
+          "slug": "prevention-of-disability",
+          "name": "Prevention of disability",
+          "section": "I: Corrective and Adapted Physical Education Programme",
+          "difficulty": "average"
+        },
+        {
+          "slug": "corrective-exercises-to-rehabilitate-people-with-special-needs",
+          "name": "Corrective exercises to rehabilitate people with special needs",
+          "section": "I: Corrective and Adapted Physical Education Programme",
+          "difficulty": "average"
+        },
+        {
+          "slug": "personal-health",
+          "name": "Personal health",
+          "section": "J: Personal, Community and Environmental Health",
+          "difficulty": "average"
+        },
+        {
+          "slug": "community-health",
+          "name": "Community health",
+          "section": "J: Personal, Community and Environmental Health",
+          "difficulty": "average"
+        },
+        {
+          "slug": "environmental-health",
+          "name": "Environmental health",
+          "section": "J: Personal, Community and Environmental Health",
+          "difficulty": "average"
+        },
+        {
+          "slug": "disease-meaning-and-causes",
+          "name": "Disease: meaning and causes",
+          "section": "K: Communicable and Non-communicable Diseases",
+          "difficulty": "average"
+        },
+        {
+          "slug": "communicable-diseases",
+          "name": "Communicable diseases",
+          "section": "K: Communicable and Non-communicable Diseases",
+          "difficulty": "average"
+        },
+        {
+          "slug": "non-communicable-diseases",
+          "name": "Non-communicable diseases",
+          "section": "K: Communicable and Non-communicable Diseases",
+          "difficulty": "average"
+        },
+        {
+          "slug": "family",
+          "name": "Family",
+          "section": "L: Family Life and Human Sexuality Education",
+          "difficulty": "average"
+        },
+        {
+          "slug": "human-sexuality-education",
+          "name": "Human sexuality education",
+          "section": "L: Family Life and Human Sexuality Education",
+          "difficulty": "average"
+        },
+        {
+          "slug": "family-planning",
+          "name": "Family planning",
+          "section": "L: Family Life and Human Sexuality Education",
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "color": "#6366F1",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "measurements-and-units",
+          "name": "Measurements and units",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "scalars-and-vectors",
+          "name": "Scalars and vectors",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "measurement-position-distance-and-displacement",
+          "name": "Measurement, position, distance and displacement",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "motion",
+          "name": "Motion",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "gravitational-field",
+          "name": "Gravitational field",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "equilibrium-of-forces",
+          "name": "Equilibrium of forces",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "friction",
+          "name": "Friction",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "work-energy-and-power-includes-energy-and-society-dams-nuclear-and-solar-energy",
+          "name": "Work, energy and power (includes energy and society, dams, nuclear and solar energy)",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "simple-machines",
+          "name": "Simple machines",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "elasticity-hookes-law-and-youngs-modulus",
+          "name": "Elasticity: Hooke's law and Young's modulus",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "pressure",
+          "name": "Pressure",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "liquids-at-rest",
+          "name": "Liquids at rest",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "temperature-and-its-measurement",
+          "name": "Temperature and its measurement",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "quantity-of-heat",
+          "name": "Quantity of heat",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "change-of-state",
+          "name": "Change of state",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "thermal-expansion",
+          "name": "Thermal expansion",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "gas-laws",
+          "name": "Gas laws",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "vapours",
+          "name": "Vapours",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "structure-of-matter-and-kinetic-theory",
+          "name": "Structure of matter and kinetic theory",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "heat-transfer",
+          "name": "Heat transfer",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "waves",
+          "name": "Waves",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "propagation-of-sound-waves",
+          "name": "Propagation of sound waves",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "characteristics-of-sound-waves",
+          "name": "Characteristics of sound waves",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "light-energy",
+          "name": "Light energy",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "reflection-of-light-at-plane-and-curved-surfaces",
+          "name": "Reflection of light at plane and curved surfaces",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "refraction-of-light-at-plane-and-curved-surfaces",
+          "name": "Refraction of light at plane and curved surfaces",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "optical-instruments",
+          "name": "Optical instruments",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "dispersion-of-light-and-colours-includes-the-electromagnetic-spectrum",
+          "name": "Dispersion of light and colours (includes the electromagnetic spectrum)",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "electrostatics",
+          "name": "Electrostatics",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "capacitors",
+          "name": "Capacitors",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "electric-cells",
+          "name": "Electric cells",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "current-electricity",
+          "name": "Current electricity",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "electrical-energy-and-power",
+          "name": "Electrical energy and power",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "magnets-and-magnetic-fields",
+          "name": "Magnets and magnetic fields",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "force-on-a-current-carrying-conductor-in-a-magnetic-field",
+          "name": "Force on a current-carrying conductor in a magnetic field",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "electromagnetic-induction-includes-inductance-and-eddy-current",
+          "name": "Electromagnetic induction (includes inductance and eddy current)",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "simple-a-c-circuits",
+          "name": "Simple a.c. circuits",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "conduction-of-electricity-through-liquids-and-gases",
+          "name": "Conduction of electricity through liquids and gases",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "elementary-modern-physics",
+          "name": "Elementary modern physics",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "introductory-electronics",
+          "name": "Introductory electronics",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "introduction-to-fibre-optics-and-lasers",
+          "name": "Introduction to fibre optics and lasers",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "principles-of-accounting",
+      "name": "Principles of Accounting",
+      "color": "#0F766E",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "nature-and-significance-of-book-keeping-and-accounting",
+          "name": "Nature and significance of book keeping and accounting",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "principles-of-double-entry",
+          "name": "Principles of double entry",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "ethics-professional-and-regulatory-bodies-in-accounting",
+          "name": "Ethics, professional and regulatory bodies in accounting",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "cash-book",
+          "name": "Cash book",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "bank-transactions-and-reconciliation-statements",
+          "name": "Bank transactions and reconciliation statements",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "final-accounts-of-a-sole-trader-proprietor",
+          "name": "Final accounts of a sole trader/proprietor",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "stock-valuation",
+          "name": "Stock valuation",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "control-accounts",
+          "name": "Control accounts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "incomplete-records-and-single-entry",
+          "name": "Incomplete records and single entry",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "manufacturing-accounts",
+          "name": "Manufacturing accounts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "accounts-of-not-for-profit-making-organizations",
+          "name": "Accounts of not-for-profit-making organizations",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "departmental-accounts",
+          "name": "Departmental accounts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "branch-accounts",
+          "name": "Branch accounts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "joint-venture-accounts",
+          "name": "Joint venture accounts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "partnership-accounts",
+          "name": "Partnership accounts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "introduction-to-company-accounts",
+          "name": "Introduction to company accounts",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "public-sector-accounting",
+          "name": "Public sector accounting",
+          "section": null,
+          "difficulty": "average"
+        },
+        {
+          "slug": "information-technology-in-accounting",
+          "name": "Information technology in accounting",
+          "section": null,
+          "difficulty": "average"
+        }
+      ]
+    },
+    {
+      "slug": "yoruba",
+      "name": "Yoruba",
+      "color": "#4F46E5",
+      "isCompulsory": false,
+      "topics": [
+        {
+          "slug": "comprehension-prose-and-verse",
+          "name": "Comprehension (prose and verse)",
+          "section": "1: Language",
+          "difficulty": "average"
+        },
+        {
+          "slug": "essay-writing",
+          "name": "Essay writing",
+          "section": "1: Language",
+          "difficulty": "average"
+        },
+        {
+          "slug": "sound-system",
+          "name": "Sound system",
+          "section": "1: Language",
+          "difficulty": "average"
+        },
+        {
+          "slug": "grammar",
+          "name": "Grammar",
+          "section": "1: Language",
+          "difficulty": "average"
+        },
+        {
+          "slug": "current-orthography",
+          "name": "Current orthography",
+          "section": "1: Language",
+          "difficulty": "average"
+        },
+        {
+          "slug": "translation",
+          "name": "Translation",
+          "section": "1: Language",
+          "difficulty": "average"
+        },
+        {
+          "slug": "oral-literature-prose-akojopo-alo-ijapa-apa-keji",
+          "name": "Oral literature, prose: Àkójọpọ̀ Àlọ́ Ìjàpá (Apá Kejì)",
+          "section": "2: Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "oral-literature-drama-eegun-alare",
+          "name": "Oral literature, drama: Eégún Aláré",
+          "section": "2: Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "written-literature-prose-ogun-omode",
+          "name": "Written literature, prose: Ogún Ọmọdé",
+          "section": "2: Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "written-literature-poetry-ede-abinibi-ati-awon-arofo-miiran",
+          "name": "Written literature, poetry: Èdè Abínibí àti Àwọn Àròfọ̀ Mìíràn",
+          "section": "2: Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "written-literature-drama-ote-oye",
+          "name": "Written literature, drama: Òtè Oyè",
+          "section": "2: Literature",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ero-ati-igbagbo",
+          "name": "Èrò àti Ìgbàgbọ́",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "eto-iselu-ati-aabo-ilu",
+          "name": "Ètò Ìṣèlú àti Ààbò Ìlú",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "eto-isinku-ati-ogun-pinpin",
+          "name": "Ètò Ìsìnkú àti Ogún Pínpín",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "onka-yoruba",
+          "name": "Òǹkà Yorùbá",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "eto-igbeyawo-ati-isomoloruko",
+          "name": "Ètò Ìgbéyàwó àti Ìsọmọlórúkọ",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "eto-iwosan",
+          "name": "Ètò Ìwòsàn",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ere-idaraya",
+          "name": "Eré Ìdárayá",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "ise-abinibi-ati-ounje-ile-yoruba",
+          "name": "Iṣẹ́ Abínibí àti Oúnjẹ Ilẹ̀ Yorùbá",
+          "section": "3: Culture",
+          "difficulty": "average"
+        },
+        {
+          "slug": "eko-ile",
+          "name": "Ẹ̀kọ́ Ilé",
+          "section": "3: Culture",
           "difficulty": "average"
         }
       ]

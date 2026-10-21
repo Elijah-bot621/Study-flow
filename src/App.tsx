@@ -20,6 +20,7 @@ import {
   redistributeMissedSessions, 
   applyPracticeScoreImpact 
 } from './services/studyEngine';
+import { getTodayLocalDateString } from './services/dateUtils';
 
 import { SplashScreen } from './components/SplashScreen';
 import { WelcomeSetup } from './components/WelcomeSetup';
@@ -101,7 +102,7 @@ export default function App() {
       const updatedProfile: UserProfile = {
         ...userProfile,
         totalStudyHours: Math.round((userProfile.totalStudyHours + hoursLogged) * 10) / 10,
-        lastStudyDate: new Date().toISOString().split('T')[0],
+        lastStudyDate: getTodayLocalDateString(),
       };
       handleUpdateProfile(updatedProfile);
 
@@ -188,7 +189,7 @@ export default function App() {
       scorePercentage: scoreData.scorePercentage,
       totalQuestions: scoreData.totalQuestions,
       correctAnswers: scoreData.correctAnswers,
-      date: new Date().toISOString().split('T')[0],
+      date: getTodayLocalDateString(),
       notes: scoreData.notes,
     };
 

@@ -4,6 +4,7 @@
  */
 
 import { Subject, Topic } from '../types';
+import { getTodayLocalDateString, toLocalDateString, parseLocalDate } from './dateUtils';
 
 export interface ValidationResult {
   valid: boolean;
@@ -11,7 +12,7 @@ export interface ValidationResult {
 }
 
 function getTodayIso(): string {
-  return new Date().toISOString().split('T')[0];
+  return getTodayLocalDateString();
 }
 
 /**
@@ -90,7 +91,7 @@ export function validateExamDate(dateStr: string): ValidationResult {
     return { valid: false, error: 'Please choose an examination date.' };
   }
 
-  const parsed = new Date(dateStr + 'T00:00:00');
+  const parsed = parseLocalDate(dateStr);
   if (isNaN(parsed.getTime())) {
     return { valid: false, error: 'Please select a valid calendar date.' };
   }
@@ -106,7 +107,7 @@ export function validateExamDate(dateStr: string): ValidationResult {
   // Prevent dates excessively far in the future (> 2 years)
   const maxDate = new Date();
   maxDate.setFullYear(maxDate.getFullYear() + 2);
-  const maxDateIso = maxDate.toISOString().split('T')[0];
+  const maxDateIso = toLocalDateString(maxDate);
 
   if (dateStr > maxDateIso) {
     return {
